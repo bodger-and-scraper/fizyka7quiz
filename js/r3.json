@@ -1,0 +1,188 @@
+{
+    "quiz": [
+      {
+        "question": "1. Uzupełnij poniższe zdanie. Wybierz właściwą odpowiedź spośród podanych. Największe ciśnienie wywierasz na podłogę, gdy A/ B/ C.",
+        "type": "radio_button",
+        "options": [
+          "A. na niej leżysz",
+          "B. stoisz na niej na jednej nodze",
+          "C. stoisz na niej na dwóch nogach"
+        ],
+        "correct_answers": ["B"]
+      },
+      {
+        "question": "2. Na stole leży prostopadłościan o podstawie kwadratu, przy czym b > a. Dokończ zdanie. Wybierz właściwą odpowiedź spośród podanych. Siła nacisku wywierana przez ten prostopadłościan na stół jest:",
+        "type": "radio_button",
+        "options": [
+          "A. największa, gdy stoi on na ścianie 1",
+          "B. największa, gdy stoi on na ścianie 2",
+          "C. największa, gdy stoi on na ścianie 3",
+          "D. taka sama bez względu na to, na której ścianie on stoi"
+        ],
+        "correct_answers": ["D"],
+        "image":"assets/r3z2.png"
+      },
+      {
+        "question": "3. Zaznacz, w której pozie baletnica wywiera największe cisnienie na podłodze ",
+        "type": "radio_button",
+        "options": [
+          "1. A",
+          "2. B",
+          "3. C"
+        ],
+        "correct_answers": ["C"],
+        "image":"assets/r3z3.png"
+      },
+      {
+        "question": "4. Wskaż naczynie, w którym przy dnie ciśnienie jest największe.",
+        "type": "radio_button",
+        "options": [
+          "A. naczynie 1",
+          "B. naczynie 2",
+          "C. naczynie 3"
+        ],
+        "correct_answers": ["A"],
+        "image":"assets/r3z4.png"
+      }, {
+        "question": "5. Oceń prawdziwość zdań. Zaznacz P, jeżeli zdanie jest prawdziwe, lub F, jeżeli jest fałszywe.",
+        "type": "input",
+        "options": [
+          "1. Urządzenia do pomiaru ciśnienia tętniczego krwi wyskalowane są w mmHg.",
+          "2. Do pomiaru ciśnienia atmosferycznego służy termohigrometr. ",
+          "3. Średnie ciśnienie atmosferyczne w Kołobrzegu jest wyższe niż w Zakopanem.",
+          "4. Ciśnienie atmosferyczne nie ma wpływu na temperaturę wrzenia wody."
+        ],
+        "correct_answers": ["1. P", "2. F", "3. P", "4. F"]
+      },
+      {
+        "question": "6. Ciśnienie hydrostatyczne działające na pęcherzyki powietrza w wodzie, pokazane na rysunkach, jest:",
+        "type": "radio_button",
+        "options": [
+          "A. największe dla pęcherzyka w największym naczyniu",
+          "B. największe dla pęcherzyka w najmniejszym naczyniu",
+          "C. największe dla pęcherzyka w średnim naczyniu",
+          "D. jednakowe dla wszystkich pęcherzyków"
+        ],
+        "correct_answers": ["D"],
+        "image":"assets/r3z6.png"
+      },
+      {
+        "question": "7. Uzupełnij zdanie. Wybierz właściwą odpowiedź spośród podanych. Prawo Pascala dotyczy A/ B/ C/ D/ E i znalazło zastosowanie przy konstrukcji F/ G/ H.",
+        "type": "tickboxes",
+        "options": [
+          "A. tylko ciał stałych",
+          "B. tylko gazów",
+          "C. ciał stałych i gazów",
+          "D. ciał stałych i cieczy",
+          "E. cieczy i gazów",
+          "F. stopera",
+          "G. termometru",
+          "H. hamulca hydraulicznego"
+        ],
+        "correct_answers": ["E", "H"]
+      },
+      {
+        "question": "8. Uzupełnij zdania właściwymi wyrażeniami. Ciśnienie jest przekazywane w gazach A/ B. Jeśli do zbiornika wtłaczamy gaz, zwiększając w nim ciśnienie, zwiększa się parcie C/ D naczynia.",
+        "type": "tickboxes",
+        "options": [
+          "A. we wszystkich kierunkach",
+          "B. tylko w kierunku działania siły",
+          "C. jedynie na dno",
+          "D. na wszystkie ścianki"
+        ],
+        "correct_answers": ["A", "D"]
+      },
+      {
+        "question": "9. Ciśnienie hydrostatyczne jest proporcjonalne do A/ B. Zależność tę wykorzystuje się przy budowie C/ D.",
+        "type": "tickboxes",
+        "options": [
+          "A. wysokości słupa wody",
+          "B. objętości zbiornika z wodą",
+          "C. pras hydraulicznych",
+          "D. wież ciśnień"
+        ],
+        "correct_answers": ["A", "D"]
+      },
+      {
+        "question": "10. Zaznacz właściwe dokończenia zdań. a) Ciało zanurzone w cieczy pozornie traci na ciężarze tyle A/ B. b) Wartość siły wyporu jest tym większa, C/ D.",
+        "type": "tickboxes",
+        "options": [
+          "A. ile wynosi ciężar wypartej przez to ciało cieczy",
+          "B. ile wynosi masa wypartej cieczy",
+          "C. im większa jest gęstość cieczy w naczyniu",
+          "D. im mniejsza jest zanurzona część ciała"
+        ],
+        "correct_answers": ["A", "C"]
+      },
+      {
+        "question": "11. Siła wyporu działająca na identyczne kulki zanurzone w cieczy, tak jak pokazano na rysunku, jest:",
+        "type": "radio_button",
+        "options": [
+          "A. największa dla górnej kulki",
+          "B. największa dla dolnej kulki",
+          "C. największa dla środkowej kulki",
+          "D. jednakowa dla wszystkich kulek"
+        ],
+        "correct_answers": ["B"],
+        "image":"assets/r3z11.png"
+      },
+      {
+        "question": "12. Oceń prawdziwość zdań. Wybierz P, jeśli zdanie jest prawdziwe, lub F jeśli jest fałszywe.",
+        "type": "input",
+        "options": [
+          "1. Na każde ciało zanurzone w gazie działa siła wyporu, która jest zwrócona w dół, a jej wartość jest równa ciężarowi wypartego gazu.",
+          "2. Im większa objętość ciała zanurzonego, tym większa wartość siły wyporu.",
+          "3. Siła wyporu jest równa masie wypartej cieczy."
+        ],
+        "correct_answers": ["1. F", "2. P", "3. F"]
+      },
+      {
+        "question": "13. W naczyniu z wodą pływa klocek do połowy w niej zanurzony. Dokończ zdanie. Wybierz właściwą odpowiedź spośród podanych. Po całkowitym zanurzeniu klocka siła wyporu:",
+        "type": "radio_button",
+        "options": [
+          "A. nie zmieni wartości",
+          "B. wzrośnie dwukrotnie",
+          "C. zmaleje dwukrotnie",
+          "D. wzrośnie więcej niż dwukrotnie"
+        ],
+        "correct_answers": ["A"],
+        "image":"assets/r3z13.png"
+      },
+      {
+        "question": "14. Na którym wykresie prawidłowo przedstawiono zależność siły wyporu od czasu dla ciała wynurzającego się z dna morskiego?",
+        "type": "radio_button",
+        "options": [
+          "A. wykres A",
+          "B. wykres B",
+          "C. wykres C"
+        ],
+        "correct_answers": ["A"],
+        "image":"assets/r3z14.png"
+      },
+      {
+        "question": "15. Uzupełnij zdania, wybierając właściwą odpowiedź spośród podanych. Na wartość siły wyporu wpływa A/ B/ C. Prawo Archimedesa wykorzystuje się przy konstrukcji D/ E/ F.",
+        "type": "tickboxes",
+        "options": [
+          "A. kształt ciała",
+          "B. gęstość cieczy, w której ciało jest zanurzone",
+          "C. głębokość zanurzenia",
+          "D. samochodów",
+          "E. statków",
+          "F. wagonów towarowych"
+        ],
+        "correct_answers": ["B", "E"]
+      },
+      {
+        "question": "16. W naczyniu z wodą znajdują się ciała wykonane z różnych substancji. Uszereguj te ciała według gęstości od najmniejszej do największej.",
+        "type": "radio_button",
+        "options": [
+          "A. 1, 2, 3, 4",
+          "B. 3, 2, 1, 4",
+          "C. 4, 3, 1, 2",
+          "D. 2, 1, 3, 4"
+        ],
+        "correct_answers": ["C"],
+        "image":"assets/r3z16.png"
+      }
+    ]
+  }

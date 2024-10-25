@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz Aplikacja</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+
+  <body>
+    <div id="quiz-container">
+      <h1>Quiz Aplikacja - Wybierz Rozdział</h1>
+      <div id="chapter-links">
+        <ul>
+          <li>
+            <a href="#" class="chapter-link" data-json="js/r1.json"
+              >Pierwsze spotkanie z fizyką</a
+            >
+          </li>
+          <li>
+            <a href="#" class="chapter-link" data-json="js/r2.json"
+              >Właściwości i budowa materii</a
+            >
+          </li>
+          <li>
+            <a href="#" class="chapter-link" data-json="js/r3.json"
+              >Hydrostatyka i aerostatyka</a
+            >
+          </li>
+          <li>
+            <a href="#" class="chapter-link" data-json="js/r4.json"
+              >Kinematyka</a
+            >
+          </li>
+          <li>
+            <a href="#" class="chapter-link" data-json="js/r5.json">Dynamika</a>
+          </li>
+          <li>
+            <a href="#" class="chapter-link" data-json="js/r6.json"
+              >Praca moc energia</a
+            >
+          </li>
+          <li>
+            <a href="#" class="chapter-link" data-json="js/r7.json"
+              >Termodynamika</a
+            >
+          </li>
+          <li>
+            <a href="#" class="chapter-link" data-json="js/r_all.json"
+              >Wszystkie Pytania</a
+            >
+          </li>
+        </ul>
+      </div>
+      <div id="question-container">
+        <div id="question-text"></div>
+        <div id="options-container"></div>
+      </div>
+      <button id="submit-answer">Sprawdź Odpowiedź</button>
+      <button id="next-question" style="display: none">Następne Pytanie</button>
+    </div>
+
+    <script src="js/app.js"></script>
+  </body>
+</html>

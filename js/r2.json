@@ -1,0 +1,177 @@
+{
+    "quiz": [
+      {
+        "question": "1. Oceń prawdziwość zdań. Zaznacz P, jeżeli zdanie jest prawdziwe, lub F, jeżeli jest fałszywe.",
+        "type": "input",
+        "options": [
+          "1. Atomy składają się z cząsteczek. P/F",
+          "2. Dyfuzją nazywamy samorzutne rozprzestrzenianie się jednej substancji w drugiej. P/F",
+          "3. Przykładem dyfuzji jest rozprzestrzenianie się zapachów. P/F",
+          "4. Zjawisko dyfuzji zachodzi dzięki łączeniu się atomów. P/F"
+        ],
+        "correct_answers": ["1. F", "2. P", "3. P", "4. F"]
+      },
+      {
+        "question": "2. Zaznacz właściwe zakończenia zdań.<br>.Zjawisko dyfuzji polega na A/B.<br>Napięcie powierzchniowe cieczy powstaje wskutek C/D.",
+        "type": "tickboxes",
+        "options": ["A. przyciąganiu się cząsteczek dwóch substancji",
+                    "B. samorzutnym mieszaniu się dwóch substancji",
+                    "C. wzajemnego przyciągania cząsteczek cieczy",
+                    "D. wzajemnego odpychania cząsteczek cieczy"
+        ],
+        "correct_answers": ["B", "D"]
+      },
+      {
+        "question": "3. Uzupełnij zdania.<br>Utrzymywanie się nartników na powierzchni wody świadczy o istnieniu sił A/ B między jej cząsteczkami. Tesiły C/D tworzenie się baniek mydlanych.",
+        "type": "tickboxes",
+        "options": [
+          "A. spójności",
+          "B.przylegania",
+          "C. utrudniają",
+          "D. ułatwiają"
+        ],
+        "correct_answers": ["A","D"]
+      },
+      {
+        "question": "4. Przykładem zjawiska dyfuzji ciał stałych jest:",
+        "type": "radio_button",
+        "options": [
+          "A. rozchodzenie się zapachu.",
+          "B. rozpuszczanie soli w wodzie.",
+          "C. zlepienie dwóch szklanych płytek zwilżonych wodą.",
+          "D. zlepienie dwóch gładko oszlifowanych płytek: złotej i ołowianej."
+        ],
+        "correct_answers": ["D"]
+      },
+      {
+        "question": "5. Bańki mydlane powstają na skutek:",
+        "type": "tickboxes",
+        "options": [
+          "A. dyfuzji detergentu w powietrzu.",
+          "B. istnienia sił spójności między cząsteczkami detergentu.",
+          "C. zwiększania napięcia powierzchniowego wody przez detergent.",
+          "D. zmniejszania napięcia powierzchniowego wody przez detergent."
+        ],
+        "correct_answers": ["B","D"]
+      },
+      {
+        "question": "6. Na których zdjęciach przedstawiono zjawisko napięcia powierzchniowego cieczy?",
+        "type": "tickboxes",
+        "options": [
+          "A.",
+          "B.",
+          "C.",
+          "D."
+        ],
+        "correct_answers": ["B", "D"],
+        "image":"assets/r2z6.png"
+      },
+      {
+        "question": "7. Uzupełnij poniższe zdania.<br>a) Wybierz odpowiedź 1 lub 2 i jej uzasadnienie A albo B.Ciecze 1 / 2 zmieniają kształt, ponieważ A / B.<br>b) Wybierz odpowiedź 3 lub 4 i jej uzasadnienie C albo D.",
+        "type": "tickboxes",
+        "options": [
+        "1. łatwo",
+        "2. trudno",
+        "A. oddziaływania międzycząsteczkowe w nich są słabe",
+        "B. oddziaływania międzycząsteczkowe w nich są silne",
+        "3. łatwo",
+        "4. trudno",
+        "C. oddziaływania międzycząsteczkowe w nich są silne",
+        "D. odległości między ich cząsteczkami są duże"],
+        "correct_answers": ["1","A","4","C"]
+      },
+      {
+        "question": "8a. Uzupełnij zdania właściwymi pojęciami.<br>Najbardziej ściśliwe spośród trzech stanów skupienia są A/ B/ C.",
+        "type": "tickboxes",
+        "options":["A. gazy","B. ciecze", "C. ciała stałe"],
+            "correct_answers": ["C"]
+          },
+      {
+        "question": "8b. A/ B/ C są mało ściśliwe, przyjmują kształt naczynia, lecz ich górna powierzchnia jest zazwyczaj płaska.",
+        "type": "tickboxes",
+        "options":["A. gazy","B. ciecze", "C. ciała stałe"],
+            "correct_answers": ["B"]
+          },
+      {
+        "question": "8c. Najmniejszymi odległościami między cząsteczkami charakteryzują się A/ B/ C.",
+        "type": "tickboxes",
+        "options":["A. gazy","B. ciecze", "C. ciała stałe"],
+            "correct_answers": ["A"]
+          },
+      {
+        "question": "8d. A/ B/ C swobodnie się rozprzestrzeniają, zajmując całą dostępną przestrzeń.",
+        "type": "tickboxes",
+        "options":["A. gazy","B. ciecze", "C. ciała stałe"],
+            "correct_answers": ["A"]
+          },
+      
+      {
+        "question": "9. Przelicz jednostki.<br>nie wpisuj jednostek do pola",
+        "type": "input",
+        "options": [
+          "a) 200 g = _________ kg",
+          "b) 200 g = _________ dag",
+          "c) 200 g = _________ mg"
+        ],
+        "correct_answers": ["1. 0,2", "2. 20", "3. 200000"]
+      },
+      {
+        "question": "10. Oceń prawdziwość zdań. Wybierz P, jeśli zdanie jest prawdziwe, lub F jeśli jest fałszywe.",
+        "type": "input",
+        "options": [
+          "1. Ciężar danego ciała na biegunie jest taki sam jak na równiku.",
+          "2. Masę wyraża się w niutonach.",
+          "3. Masa danego ciała jest jednakowa na Ziemi i na Księżycu.",
+          "4. Na Ziemi masa i ciężar danego ciała są sobie równe."
+        ],
+        "correct_answers": ["1. P", "2. F", "3. P", "4. F"]
+      },
+      {
+        "question": "11. Kulki przedstawione na rysunku mają takie same masy. Która z nich jest zbudowana z substancji o największej gęstości?",
+        "type": "radio_button",
+        "options": [
+          "A. kulka 1",
+          "B. kulka 2",
+          "C. kulka 3",
+          "D. kulka 4"
+        ],
+        "correct_answers": ["A"],
+        "image":"assets/r2z11.png"
+      },
+      {
+        "question": "12. Uzupełnij poniższe zdanie. Wybierz właściwą odpowiedź spośród podanych.<br><br>Objętość 10 m3 to inaczej",
+        "type": "radio_button",
+        "options": [
+          "A. 0,000 001 km³",
+          "B. 1 000 000 cm³",
+          "C. 10 000 dm³"
+        ],
+        "correct_answers": ["C"]
+      },
+      {
+        "question": "13. Pod każdym rysunkiem znajdują się dwie liczby. Przy każdej z nich dopisz jednostkę masy i ciężaru ciała widocznego na rysunku.",
+        "type": "input",
+        "options": [
+            "7000 ___",
+            "70 000 ___",
+            "1300 ___",
+            "13 000 ___",
+            "150 ___",
+            "15 ___"
+        ],
+        "correct_answers": ["1. kg", "2. N", "3. kg","4. N", "5. N","6. kg"],
+        "image":"assets/r2z13.png"
+      },
+      {
+        "question": "14. Jaki ciężar mają owoce przedstawione na ilustracjach?",
+        "type": "input",
+        "options": [
+          "Masa: 85 dag",
+          "Masa: 1,2 kg",
+          "Masa: 57 dag"
+        ],
+        "correct_answers": ["1. 8,5 N", "2. 12 N", "3. 5,7 N"],
+        "image":"assets/r2z14.png"
+      }
+    ]
+  }

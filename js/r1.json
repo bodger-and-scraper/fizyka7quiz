@@ -1,0 +1,169 @@
+{
+    "quiz": [
+      {
+        "question": "1. Wybierz zbiory, które zawierają tylko wielkości fizyczne.",
+        "type": "tickboxes",
+        "options": [
+          "A. temperatura, deszcz, masa",
+          "B. deszcz, mgła, chmura",
+          "C. długość, objętość, pole powierzchni",
+          "D. długość, temperatura, masa",
+          "E. temperatura, rosa, ciśnienie",
+          "F. grad, wiatr, objętość"
+        ],
+        "correct_answers": ["C", "D"]
+      },
+      
+      {
+        "question": "2. W układzie SI nie występują jednostki:",
+        "type": "tickboxes",
+        "options": [
+          "A. metr",
+          "B. gram",
+          "C. sekunda",
+          "D. kilogram",
+          "E. stopień Celsjusza"
+        ],
+        "correct_answers": ["B", "E"]
+      },
+      {
+        "question": "3. Doświadczeniem fizycznym nie jest:",
+        "type": "radio_button",
+        "options": [
+          "A. pomiar głębokości naczynia",
+          "B. obliczanie prędkości biegacza",
+          "C. pomiar czasu, w jakim woda z kranu napełnia naczynie",
+          "D. mierzenie szerokości dłoni dziesięciu uczniów"
+        ],
+        "correct_answers": ["B"]
+      },
+      {
+        "question": "4. Przyporządkuj do każdego przyrządu jego dokładność pomiarową.",
+        "type": "input",
+        "options": [
+          "A. 0,1°C",
+          "B. 1 N",
+          "C. 1 mm",
+          "D. 1°C"
+        ],
+        "correct_answers": ["1. B", "2. C", "3. D","4. A"],
+        "image":"assets/r1z4.png"
+      },
+      {
+        "question": "5. Ania trzykrotnie zmierzyła długość swojej stopy. Otrzymała następujące wyniki: 24 cm, 24,5 cm, 25 cm. Jaki wynik powinna zanotować?",
+        "type": "radio_button",
+        "options": [
+          "A. 24 cm",
+          "B. 24,5 cm",
+          "C. 25 cm",
+          "D. 25,5 cm"
+        ],
+        "correct_answers": ["B"]
+      },
+      {
+        "question": "6. Zaokrąglij podane wielkości z dokładnością do trzech cyfr znaczących.",
+        "type": "input",
+        "options": [
+          "a) 0,001587 km",
+          "b) 28 354 mm",
+          "c) 0,24801 s",
+          "d) 42 706 kg"
+        ],
+        "correct_answers": ["1. 0,00159 km", "2. 28 400 mm", "3. 0,248 s", "4. 42 700 kg"]
+      },
+      {
+        "question": "7. Oceń, który z poniżej wymienionych skutków oddziaływań jest skutkiem statycznym, a który dynamicznym.<br><br>A-statyczny<br>B-dynamiczny",
+        "type": "input",
+        "options": [
+          "1. rozciągnięcie gumy",
+          "2. napięcie łuku",
+          "3. rozkruszenie kredy",
+          "4. złamanie ołówka",
+          "5. odbicie piłki siatkowej",
+          "6. zatrzymanie roweru",
+          "7. zmiana prędkości ciała"
+        ],
+        "correct_answers": ["1. A", "2. A", "3. A", "4. A", "5. B", "6. B", "7. B"]
+      },
+      {
+        "question": "8. Jaki rodzaj oddziaływań obserwujemy, kiedy podrzucona piłka spada na ziemię?",
+        "type": "radio_button",
+        "options": [
+          "A. magnetyczne",
+          "B. elektrostatyczne",
+          "C. grawitacyjne",
+          "D. mechaniczne"
+        ],
+        "correct_answers": ["C"]
+      },
+      {
+        "question": "9. Uzupełnij zdania, wybierając właściwą odpowiedź spośród podanych. Siła jest miarą A/B/C.<br>Aby określić wielkość liczbową, należy podać D/E/F.",
+        "type": "tickboxes",
+        "options": [
+          "A. tylko oddziaływań magnetycznych",
+          "B. tylko oddziaływań elektrostatycznych",
+          "C. wzajemnego oddziaływania ciał",
+          "D. jej wartość i zwrot",
+          "E. jej wartość, kierunek, punkt przyłożenia i zwrot",
+          "F. tylko jej wartość"
+        ],
+        "correct_answers": ["C", "E"]
+      },
+      {
+        "question": "10. Wspólnymi cechami tych sił są:",
+        "type": "radio_button",
+        "options": [
+          "A. zwrot i punkt przyłożenia",
+          "B. wartość i punkt przyłożenia",
+          "C. kierunek, zwrot i punkt przyłożenia",
+          "D. kierunek i punkt przyłożenia"
+        ],
+        "correct_answers": ["D"],
+        "image":"assets/r1z10.png"
+      },
+      {
+        "question": "11. Wybierz zbiór, który zawiera tylko jednostki siły.",
+        "type": "radio_button",
+        "options": [
+          "A. metr, kiloniuton, kilogram",
+          "B. kilogram, niuton, kilometr",
+          "C. niuton, kiloniuton, meganiuton",
+          "D. siłomierz, niuton, kiloniuton"
+        ],
+        "correct_answers": ["C"]
+      },
+      {
+        "question": "12. Wskaż dwie ilustracje, na których siła wypadkowa ma taką samą wartość.",
+        "type": "tickboxes",
+        "options": [
+          "A. Ilustracja 1",
+          "B. Ilustracja 2",
+          "C. Ilustracja 3"
+        ],
+        "correct_answers": ["A","C"],
+        "image":"assets/r1z12.png"
+      },
+      {
+        "question": "13. Wskaż rysunek, na którym przedstawiono siły równoważące się.",
+        "type": "radio_button",
+        "options": [
+          "A. Rysunek 1",
+          "B. Rysunek 2",
+          "C. Rysunek 3"
+        ],
+        "correct_answers": ["B"],
+        "image":"assets/r1z13.png"
+      },
+      {
+        "question": "14. Jeżeli na ciało działa kilka sił, można je zastąpić jedną siłą. Jeśli na nieruchome ciało zadziałają dwie siły o takich samych wartościach i kierunku, lecz o przeciwnych zwrotach, to ciało:",
+        "type": "tickboxes",
+        "options": [
+          "A. równoważącą",
+          "B. wypadkową",
+          "C. zacznie się poruszać",
+          "D. pozostanie w spoczynku"
+        ],
+        "correct_answers": ["B", "D"]
+      }
+    ]
+  }

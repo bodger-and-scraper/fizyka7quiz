@@ -1,0 +1,162 @@
+{
+    "quiz": [
+      {
+        "question": "1. Zaznacz sytuację, w której siła wykonuje pracę.",
+        "type": "radio_button",
+        "options": [
+          "A. Siła ciężkości dociska kamień do ziemi.",
+          "B. Siła tarcia zatrzymuje sunące sanki.",
+          "C. Siła tarcia utrzymuje sanki nieruchomo na pochyłości.",
+          "D. Siła sprężystości sprężyny utrzymuje ciężarek na stałej wysokości."
+        ],
+        "correct_answers": ["B"]
+      },
+      {
+        "question": "2. Na podstawie wykresu uzupełnij zdania właściwymi wyrażeniami.Na podstawie wykresu uzupełnij zdania właściwymi wyrażeniami.<br>Załóż, że siła działa w tę samą stronę, w którą przemieszcza się przedmiot.<br>Praca wykonana przy przemieszczeniu przedmiotu na odległość 3 m wyniosła A/ B. Gdyby z tą samą siłą przemieszczono ciało na odległość 6 m, wykonana praca byłaby C/ D, ponieważ praca jest E/ F proporcjonalna do przemieszczenia.",
+        "type": "tickboxes",
+        "options": [
+          "A. 15 J",
+          "B. 30 J",
+          "C. dwa razy większa",
+          "D. o połowę mniejsza",
+          "E. wprost",
+          "F. odwrotnie"
+        ],
+        "correct_answers": ["A", "C", "E"],
+        "image":"assets/r6z2.png"
+
+      },
+      {
+        "question": "3. W których spośród poniższych sytuacji została wykonana praca mechaniczna?",
+        "type": "tickboxes",
+        "options": [
+          "A. Sportowiec przez pewien czas trzymał nad głową ciężką sztangę.",
+          "B. Ula ciągnęła za sobą sanki z siedzącym na nich bratem.",
+          "C. Tomek z całej siły napierał na bramę ogrodu. Brama nawet nie drgnęła.",
+          "D. Zosia podniosła z podłogi zabawkę i położyła ją na stole."
+        ],
+        "correct_answers": ["B", "D"]
+      },
+      {
+        "question": "4. Oceń prawdziwość poniższych wypowiedzi. Wybierz P, jeśli zdanie jest prawdziwe, lub F - jeśli jest fałszywe.",
+        "type": "input",
+        "options": [
+          "1. Moc urządzenia oblicza się jako iloraz pracy i czasu.",
+          "2. Moc urządzenia oblicza się jako iloczyn pracy i czasu.",
+          "3. Pracę mechaniczną oblicza się jako iloczyn wartości siły i prędkości poruszającego się ciała."
+        ],
+        "correct_answers": ["1. P", "2. F", "3. F"]
+      },
+      {
+        "question": "5. Które z urządzeń ma największą moc?",
+        "type": "radio_button",
+        "options": [
+          "A. Urządzenie A wykonuje pracę równą 20 kJ w ciągu 3 min.",
+          "B. Urządzenie B wykonuje pracę równą 2 J w ciągu 0,5 s.",
+          "C. Urządzenie C wykonuje pracę równą 1,65 MJ w ciągu 200 h."
+        ],
+        "correct_answers": ["A"]
+      },
+      {
+        "question": "6. Zaznacz, które zdania są prawdziwe, a które fałszywe.",
+        "type": "input",
+        "options": [
+          "1. Jednostką mocy jest dżul.",
+          "2. Praca jest równa ilorazowi siły i przebytej drogi.",
+          "3. Moc jest wielkością fizyczną, która informuje nas o pracy wykonanej w jednostce czasu.",
+          "4. Efektem wykonania pracy może być zmiana kształtu przedmiotu."
+        ],
+        "correct_answers": ["1. F", "2. F", "3. P", "4. P"]
+      },
+      {
+        "question": "7. Wybierz zbiór zawierający tylko jednostki energii.",
+        "type": "radio_button",
+        "options": [
+          "A. N/m², J, N",
+          "B. J · m², J, kJ",
+          "C. J, N · m, W · s",
+          "D. kJ, J · m, N · m"
+        ],
+        "correct_answers": ["C"]
+      },
+      {
+        "question": "8. Zaznacz właściwe uzupełnienia zdań.<br>Książka znajdująca się na półce nad biurkiem ma A/ B energię potencjalną grawitacji względem biurka niż względem podłogi. Jej energia potencjalna grawitacji względem C/ D jest równa zero.",
+        "type": "tickboxes",
+        "options": [
+          "A. mniejszą",
+          "B. większą",
+          "C. półki",
+          "D. podłogi"
+        ],
+        "correct_answers": ["A", "C"]
+      },
+      {
+        "question": "9. Wysokość jednej kondygnacji w pewnym bloku mieszkalnym wynosi 3 m (razem z grubością stropu), a parter znajduje się na poziomie gruntu.Zaznacz, które odpowiedzi są prawdziwe, a które fałszywe.<br>Zakładamy, że człowiek jest punktem materialnym.",
+        "type": "input",
+        "options": [
+          "1. Energia potencjalna grawitacji lokatora z trzeciego piętra jest trzy razy większa niż energia potencjalna lokatora o takiej samej masie mieszkającego na parterze.",
+          "2. Energia potencjalna lokatora o masie 30 kg, mieszkającego na czwartym piętrze, jest równa 3600 J.",
+          "3. Energia potencjalna lokatora z szóstego piętra jest dwa razy większa niż energia potencjalna lokatora o takiej samej masie mieszkającego na trzecim piętrze.",
+          "4. Energia potencjalna lokatora o masie 60 kg z pierwszego piętra jest taka sama, jak energia potencjalna lokatora o masie 30 kg z tego samego piętra.",
+          "5. Wejście z parteru na trzecie piętro lokatora o masie 50 kg wymaga wykonania pracy równej 4500 J. ",
+          "6. Kiedy lokator schodzi z dowolnego piętra o jedno piętro niżej, jego energia potencjalna maleje o połowę. "
+        ],
+        "correct_answers": ["1. F", "2. F", "3. P", "4. F", "5. F", "6. F"]
+      },
+      {
+        "question": "10. Zaznacz, które z ciał ma największą energię potencjalną grawitacji względem powierzchni Ziemi.",
+        "type": "radio_button",
+        "options": [
+          "A. kafar o masie 1 t zawieszony 15 cm nad ziemią",
+          "B. betonowa płyta o masie 500 kg podwieszona na dźwigu na wysokości 0,5 m",
+          "C. doniczka z kwiatkiem o łącznej masie 95 dag ustawiona na balkonie na wysokości 5 m"
+        ],
+        "correct_answers": ["B"]
+      },
+      {
+        "question": "11. Kamień podrzucono z prędkością 5 m/s z powierzchni ziemi. Jaka jest jego prędkość podczas spadania tuż nad ziemią? Pomiń opór powietrza.",
+        "type": "radio_button",
+        "options": [
+          "A. 0 m/s",
+          "B. 5 m/s",
+          "C. 10 m/s",
+          "D. 50 m/s"
+        ],
+        "correct_answers": ["C"]
+      },
+      {
+        "question": "12. Pojazd o masie 400 kg, jadący z prędkością 18 m/s, ma energię kinetyczną równą:",
+        "type": "radio_button",
+        "options": [
+          "A. 129,6 J",
+          "B. 129,6 kJ",
+          "C. 64,8 J",
+          "D. 64,8 kJ"
+        ],
+        "correct_answers": ["D"]
+      },
+      {
+        "question": "13. Na gałęzi, 3 m nad ziemią, wisi jabłko o masie 200 g. Oceń poprawność wypowiedzi.",
+        "type": "input",
+        "options": [
+          "1. Energia potencjalna jabłka względem ziemi jest równa 6 J.",
+          "2. Zgodnie z zasadą zachowania energii, kiedy jabłko spada, jego energia potencjalna w chwili zetknięcia z ziemią będzie taka sama jak wtedy, kiedy wisiało na gałęzi.",
+          "3. Zgodnie z zasadą zachowania energii, kiedy jabłko spada, jego energia kinetyczna w chwili zetknięcia z ziemią będzie taka sama jak energia potencjalna tego jabłka, kiedy wisiało na gałęzi."
+        ],
+        "correct_answers": ["1. F", "2. F", "3. P"]
+      },
+      {
+        "question": "14. Zaznacz sytuacje, w których zachodzi przemiana energii potencjalnej w kinetyczną.",
+        "type": "tickboxes",
+        "options": [
+          "A. spadanie sopli z dachu",
+          "B. ruch wody w jeziorze",
+          "C. podgrzewanie wody",
+          "D. wjeżdżanie rowerzysty z rozpędu pod górkę",
+          "E. tonięcie kamienia w jeziorze",
+          "F. ruch wskazówek zegara mechanicznego"
+        ],
+        "correct_answers": ["A", "E", "F"]
+      }
+    ]
+  }

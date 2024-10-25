@@ -1,0 +1,180 @@
+{   
+    "quiz": [
+      {
+        "question": "1. Uzupełnij zadania właściwymi zwrotami.<br>Lokomotywa ciągnie wagony pasażerskie. Jeden z pasażerów idzie w kierunku lokomotywy. Jego prędkość względem lokomotywy jest A/ B niż względem toru. Wagony pozostają w spoczynku względem C/ D.",
+        "type": "tickboxes",
+        "options": [
+          "A. mniejsza",
+          "B. większa",
+          "C. pasażera",
+          "D. lokomotywy"
+        ],
+        "correct_answers": ["B", "D"]
+
+      },
+      {
+        "question": "2. Zaznacz ciała poruszające się ruchem krzywoliniowym.",
+        "type": "tickboxes",
+        "options": [
+          "A. kula wystrzelona poziomo z armaty",
+          "B. jadąca w dół winda",
+          "C. dziecko kręcące się na karuzeli",
+          "D. startujący samolot",
+          "E. spadająca z kranu kropla wody"
+        ],
+        "correct_answers": ["A", "C", "D"]
+      },
+      {
+        "question": "3. Pasażer niosący plecak idzie w stronę kasownika w jadącym autobusie.<br>Dokończ zdanie. Pasażer jest w spoczynku względem:",
+        "type": "radio_button",
+        "options": [
+          "A. kierowcy autobusu",
+          "B. swojego plecaka",
+          "C. siedzących pasażerów",
+          "D. wyprzedzającego ten autobus samochodu"
+        ],
+        "correct_answers": ["B"]
+      },
+      {
+        "question": "4. Wybierz zbiór, który zawiera tylko jednostki prędkości.",
+        "type": "radio_button",
+        "options": [
+          "A. km/h, g/cm2, m/s2, km/s",
+          "B. km/s, m/min, km/h, m/s",
+          "C. m/min, kg/m3, N/m2, km/h2",
+          "D. m/s, kg/m3, kN/m2, km/h2"
+        ],
+        "correct_answers": ["B"]
+      },
+      {
+        "question": "5. Dokończ zdanie. Wybierz właściwą odpowiedź spośród podanych.<br>W ruchu jednostajnym prostoliniowym prędkość:",
+        "type": "radio_button",
+        "options": [
+          "A. zwiększa się, a tor jest linią prostą",
+          "B. jest stała, a tor jest linią krzywą",
+          "C. zmienia się stale o tę samą wartość w jednostce czasu, a tor jest linią prostą",
+          "D. jest stała, a tor jest linią prostą"
+        ],
+        "correct_answers": ["D"]
+      },
+      {
+        "question": "6. Turysta wjeżdżający na górę kolejką linową w ciągu 300 s przebył odległość 1200 m. Oznacza to, że kolejka jechała z prędkością:",
+        "type": "radio_button",
+        "options": [
+          "A. 0,25 m/s",
+          "B. 3,6 m/s",
+          "C. 4 m/s",
+          "D. 4,8 m/s"
+        ],
+        "correct_answers": ["C"]
+      },
+      {
+        "question": "7. Na którym rysunku przedstawiono wykres zależności drogi od czasu w ruchu jednostajnie przyspieszonym?<br>Wybierz właściwą odpowiedź spośród podanych.",
+        "type": "radio_button",
+        "options": [
+          "A. wykres 1",
+          "B. wykres 2",
+          "C. wykres 3",
+          "D. wykres 4"
+        ],
+        "correct_answers": ["D"],
+        "image":"assets/r4z7.png"
+      },
+      {
+        "question": "8. Oceń prawdziwość poniższych wypowiedzi. Wybierz P, jeśli zdanie jest prawdziwe, lub F jeśli jest fałszywe.",
+        "type": "input",
+        "options": [
+          "1. Droga w ruchu jednostajnie przyspieszonym jest wprost proporcjonalna do czasu trwania ruchu.",
+          "2. Droga w ruchu jednostajnie przyspieszonym bez prędkości początkowej jest wprost proporcjonalna do kwadratu czasu trwania ruchu.",
+          "3. Prędkość w ruchu jednostajnie przyspieszonym ma wartość stałą."
+        ],
+        "correct_answers": ["1. F", "2. P", "3. F"]
+      },
+      {
+        "question": "9. Uzupełnij zdania (1-4), wybierając właściwą odpowiedź spośród podanych.<br>A. nie porusza się<br>B. porusza się ruchem jednostajnie opóźnionym<br>C. porusza się ruchem jednostajnie przyspieszonym<br>D. porusza się ruchem jednostajnym",
+        "type": "input",
+        "options": [
+          "1. Jeżeli prędkość ma w czasie ruchu wartość stałą, to ciało A/ B/ C/ D.",
+          "2. Jeżeli prędkość w kolejnych sekundach ruchu rośnie o taką samą wartość, to ciało A/ B/ C/ D.",
+          "3. Jeżeli prędkość w kolejnych sekundach ruchu maleje o taką samą wartość, to ciało A/ B/ C/ D.",
+          "4. Jeżeli prędkość w kolejnych sekundach ruchu jest równa zero, to ciało A/ B/ C/ D."
+        ],
+        "correct_answers": ["1. D", "2. C", "3. B", "4. A"]
+      },
+
+
+
+
+      {
+        "question": "10. Wskaż, które ze zdań dotyczących ruchu jednostajnie przyspieszonego są fałszywe, a które prawdziwe.",
+        "type": "input",
+        "options": [
+          "1. W kolejnych sekundach ruchu prędkość wzrasta o tę samą wartość.",
+          "2. W kolejnych sekundach ruchu prędkość wzrasta dwukrotnie.",
+          "3. Prędkość podczas ruchu jest proporcjonalna do kwadratu czasu.",
+          "4. Droga przebyta w kolejnych sekundach rośnie o stałą wartość."
+        ],
+        "correct_answers": ["1. P", "2. F", "3. P", "4. F"]
+      },
+      {
+        "question": "11. W której tabeli znajdują się dane dotyczące ruchu jednostajnie przyspieszonego?",
+        "type": "radio_button",
+        "options": [
+          "A. Tabela A",
+          "B. Tabela B",
+          "C. Tabela C"
+        ],
+        "correct_answers": ["C"],
+        "image":"assets/r4z11.png"
+
+      },
+      {
+        "question": "12. Na podstawie wykresu zależności prędkości samochodu od czasu oceń, czy poniższe zdania są prawdziwe, czy fałszywe.",
+        "type": "input",
+        "options": [
+          "1. Na odcinku AB samochód przyspieszał.",
+          "2. Na odcinku DE samochód nie przyspieszał.",
+          "3. Na odcinku CD samochód hamował.",
+          "4. Na odcinku EF samochód przyspieszał.",
+          "5. Prędkość chwilowa w punkcie B była równa prędkości chwilowej w punkcie C."
+        ],
+        "correct_answers": ["1. P", "2. P", "3. F", "4. F", "5. P"],
+        "image":"assets/r4z12.png"
+      },
+      {
+        "question": "13. Wykres przedstawia zależność prędkości samochodu od czasu. Po ilu sekundach samochód zaczął zwalniać?",
+        "type": "radio_button",
+        "options": [
+          "A. 10 s",
+          "B. 40 s",
+          "C. 50 s"
+        ],
+        "correct_answers": ["B"],
+        "image":"assets/r4z13.png"
+      },
+      {
+        "question": "14. Jaki ruch opisują poszczególne wykresy?",
+        "type": "input",
+        "options": [
+          "A. jednostajny",
+          "B. jednostajnie przyspieszony",
+          "C. jednostajnie opóźniony",
+          "D. niejednostajnie zmienny"
+        ],
+        "correct_answers": ["1. B", "2. A", "3. C"],
+        "image":"assets/r4z14.png"
+      },
+      {
+        "question": "15. Na rysunku przedstawiono wykresy zależności prędkości od czasu dla czterech pojazdów: X, Y, W i Z. Dokończ zdanie. Na podstawie wykresów można stwierdzić, że z największym przyspieszeniem poruszał się:",
+        "type": "radio_button",
+        "options": [
+          "A. pojazd Z",
+          "B. pojazd X",
+          "C. pojazd W",
+          "D. pojazd Y"
+        ],
+        "correct_answers": ["B"],
+        "image":"assets/r4z15.png"
+      }
+    ]
+  }
