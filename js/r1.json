@@ -11,9 +11,9 @@
           "E. temperatura, rosa, ciśnienie",
           "F. grad, wiatr, objętość"
         ],
-        "correct_answers": ["C", "D"]
+        "correct_answers": ["C", "D"],
+        "explanation": "Wielkość fizyczna to cecha, którą można zmierzyć i wyrazić liczbowo wraz z jednostką. Deszcz, mgła, chmura, rosa, grad i wiatr nie są wielkościami fizycznymi, lecz zjawiskami fizycznymi."
       },
-      
       {
         "question": "2. W układzie SI nie występują jednostki:",
         "type": "tickboxes",
@@ -24,7 +24,8 @@
           "D. kilogram",
           "E. stopień Celsjusza"
         ],
-        "correct_answers": ["B", "E"]
+        "correct_answers": ["B", "E"],
+        "explanation": ""
       },
       {
         "question": "3. Doświadczeniem fizycznym nie jest:",
@@ -35,7 +36,8 @@
           "C. pomiar czasu, w jakim woda z kranu napełnia naczynie",
           "D. mierzenie szerokości dłoni dziesięciu uczniów"
         ],
-        "correct_answers": ["B"]
+        "correct_answers": ["B"],
+        "explanation": "Obliczanie prędkości biegacza jest analizą danych, a nie bezpośrednim doświadczeniem fizycznym."
       },
       {
         "question": "4. Przyporządkuj do każdego przyrządu jego dokładność pomiarową.",
@@ -46,8 +48,9 @@
           "C. 1 mm",
           "D. 1°C"
         ],
-        "correct_answers": ["1. B", "2. C", "3. D","4. A"],
-        "image":"assets/r1z4.png"
+        "correct_answers": ["1. B", "2. C", "3. D", "4. A"],
+        "image": "assets/r1z4.png",
+        "explanation": ""
       },
       {
         "question": "5. Ania trzykrotnie zmierzyła długość swojej stopy. Otrzymała następujące wyniki: 24 cm, 24,5 cm, 25 cm. Jaki wynik powinna zanotować?",
@@ -58,7 +61,8 @@
           "C. 25 cm",
           "D. 25,5 cm"
         ],
-        "correct_answers": ["B"]
+        "correct_answers": ["B"],
+        "explanation": "Średnia z pomiarów wynosi (24 cm + 24,5 cm + 25 cm) / 3 = 24,5 cm."
       },
       {
         "question": "6. Zaokrąglij podane wielkości z dokładnością do trzech cyfr znaczących.",
@@ -69,7 +73,8 @@
           "c) 0,24801 s",
           "d) 42 706 kg"
         ],
-        "correct_answers": ["1. 0,00159 km", "2. 28 400 mm", "3. 0,248 s", "4. 42 700 kg"]
+        "correct_answers": ["1. 0,00159 km", "2. 28 400 mm", "3. 0,248 s", "4. 42 700 kg"],
+        "explanation": ""
       },
       {
         "question": "7. Oceń, który z poniżej wymienionych skutków oddziaływań jest skutkiem statycznym, a który dynamicznym.<br><br>A-statyczny<br>B-dynamiczny",
@@ -83,7 +88,8 @@
           "6. zatrzymanie roweru",
           "7. zmiana prędkości ciała"
         ],
-        "correct_answers": ["1. A", "2. A", "3. A", "4. A", "5. B", "6. B", "7. B"]
+        "correct_answers": ["1. A", "2. A", "3. A", "4. A", "5. B", "6. B", "7. B"],
+        "explanation": "Skutki statyczne powodują zmianę kształtu ciała bez zmiany jego ruchu. Skutki dynamiczne wpływają na ruch ciała, zmieniając jego prędkość lub kierunek."
       },
       {
         "question": "8. Jaki rodzaj oddziaływań obserwujemy, kiedy podrzucona piłka spada na ziemię?",
@@ -94,7 +100,8 @@
           "C. grawitacyjne",
           "D. mechaniczne"
         ],
-        "correct_answers": ["C"]
+        "correct_answers": ["C"],
+        "explanation": ""
       },
       {
         "question": "9. Uzupełnij zdania, wybierając właściwą odpowiedź spośród podanych. Siła jest miarą A/B/C.<br>Aby określić wielkość liczbową, należy podać D/E/F.",
@@ -107,7 +114,8 @@
           "E. jej wartość, kierunek, punkt przyłożenia i zwrot",
           "F. tylko jej wartość"
         ],
-        "correct_answers": ["C", "E"]
+        "correct_answers": ["C", "F"],
+        "explanation": "C: Siła jest miarą wzajemnego oddziaływania ciał. F: Aby określić wielkość liczbową siły, wystarczy podać jej wartość."
       },
       {
         "question": "10. Wspólnymi cechami tych sił są:",
@@ -119,7 +127,8 @@
           "D. kierunek i punkt przyłożenia"
         ],
         "correct_answers": ["D"],
-        "image":"assets/r1z10.png"
+        "image": "assets/r1z10.png",
+        "explanation": "Kierunek określa linię działania siły, a punkt przyłożenia to miejsce, w którym siła działa na ciało."
       },
       {
         "question": "11. Wybierz zbiór, który zawiera tylko jednostki siły.",
@@ -130,7 +139,8 @@
           "C. niuton, kiloniuton, meganiuton",
           "D. siłomierz, niuton, kiloniuton"
         ],
-        "correct_answers": ["C"]
+        "correct_answers": ["C"],
+        "explanation": ""
       },
       {
         "question": "12. Wskaż dwie ilustracje, na których siła wypadkowa ma taką samą wartość.",
@@ -140,8 +150,9 @@
           "B. Ilustracja 2",
           "C. Ilustracja 3"
         ],
-        "correct_answers": ["A","C"],
-        "image":"assets/r1z12.png"
+        "correct_answers": ["A", "C"],
+        "image": "assets/r1z12.png",
+        "explanation": ""
       },
       {
         "question": "13. Wskaż rysunek, na którym przedstawiono siły równoważące się.",
@@ -152,7 +163,8 @@
           "C. Rysunek 3"
         ],
         "correct_answers": ["B"],
-        "image":"assets/r1z13.png"
+        "image": "assets/r1z13.png",
+        "explanation": ""
       },
       {
         "question": "14. Jeżeli na ciało działa kilka sił, można je zastąpić jedną siłą. Jeśli na nieruchome ciało zadziałają dwie siły o takich samych wartościach i kierunku, lecz o przeciwnych zwrotach, to ciało:",
@@ -163,7 +175,9 @@
           "C. zacznie się poruszać",
           "D. pozostanie w spoczynku"
         ],
-        "correct_answers": ["B", "D"]
+        "correct_answers": ["B", "D"],
+        "explanation": ""
       }
     ]
   }
+  

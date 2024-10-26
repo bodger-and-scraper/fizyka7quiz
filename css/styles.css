@@ -1,78 +1,275 @@
+/* Reset default margins and paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Increase the base font size for better readability */
 body {
     background-color: #ffffff;
     font-family: Arial, sans-serif;
     color: #000;
     display: flex;
     justify-content: center;
-    align-items: center;
-    height: 100vh;
+    align-items: flex-start; /* Aligns container to the top */
+    min-height: 100vh; /* Allows vertical scrolling if content exceeds viewport */
     margin: 0;
+    padding: 20px; /* Adds spacing around the content */
+    overflow-y: auto; /* Enables vertical scrolling */
+    font-size: 1.5rem; /* Sets base font size to 150% */
 }
 
-/* #quiz-container {
-    width: 80%;
-    max-width: 600px;
+/* Enhanced #quiz-container styles for better visibility and width */
+#quiz-container {
+    width: 100%;
+    max-width: 1200px; /* Increased max-width to prevent text wrapping */
     text-align: center;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-} */
+    padding: 25px; /* Adjusted padding for better spacing */
+    border-radius: 15px; /* More rounded corners for aesthetics */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); /* Enhanced box-shadow for depth */
+    background-color: #f9f9f9; /* Subtle background color for contrast */
+    box-sizing: border-box; /* Ensures padding is included in width */
+}
 
+/* Enlarged headings */
 h1 {
     color: #0056b3;
-    font-size: 2.5em;
-    margin-bottom: 20px;
+    font-size: 3.75em; /* Increased from 2.5em to 3.75em */
+    margin-bottom: 30px; /* Increased margin for spacing */
+    word-wrap: break-word; /* Allows long words to break if necessary */
 }
 
+/* Enhanced #chapter-links styling */
+#chapter-links ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centers the links horizontally */
+    gap: 20px; /* Adds space between links */
+}
+
+#chapter-links ul li a {
+    display: inline-block; /* Prevents links from stretching */
+    white-space: nowrap; /* Prevents text from wrapping */
+    padding: 10px 20px; /* Adds padding for clickable area */
+    background-color: #e6f0ff; /* Light background for links */
+    border-radius: 8px; /* Rounded corners for links */
+    transition: background-color 0.3s ease;
+    width: auto; /* Allows links to adjust width based on content */
+    font-size: 1.8em; /* Increased font size */
+}
+
+#chapter-links ul li a:hover {
+    background-color: #cce0ff; /* Darker background on hover */
+}
+
+/* Enhanced #question-container styles */
 #question-container {
     display: none;
     border: 5px solid #0056b3;
-    padding: 20px;
-    margin-bottom: 20px;
-    border-radius: 10px;
+    padding: 30px; /* Increased padding */
+    margin-bottom: 30px; /* Increased margin */
+    border-radius: 15px; /* More rounded corners */
+    background-color: #ffffff; /* Ensures readability */
+    box-sizing: border-box;
 }
 
+/* Enlarged question text */
 #question-text {
     font-weight: bold;
-    font-size: 1.5em;
-    margin-bottom: 15px;
+    font-size: 2.25em; /* Increased from 1.5em to 2.25em */
+    margin-bottom: 20px; /* Increased margin */
 }
 
+/* Enhanced options container */
 #options-container {
-    margin-bottom: 20px;
+    margin-bottom: 30px; /* Increased margin */
+    text-align: left; /* Align options to the left for better readability */
+    font-size: 1.5em; /* Increased font size */
+    line-height: 1.6; /* Improved line spacing */
 }
 
+/* Enlarged buttons */
 button {
     background-color: #0056b3;
     color: #ffffff;
     border: none;
-    padding: 10px 20px;
-    font-size: 1.2em;
-    border-radius: 5px;
+    padding: 15px 30px; /* Increased padding */
+    font-size: 1.8em; /* Increased font size */
+    border-radius: 8px; /* Slightly more rounded corners */
     cursor: pointer;
-    margin: 10px;
+    margin: 15px; /* Increased margin */
+    transition: background-color 0.3s ease;
 }
 
 button:hover {
     background-color: #004494;
 }
 
+/* Enhanced list styling */
 ul {
     list-style-type: none;
     padding: 0;
 }
 
 ul li {
-    margin: 10px 0;
+    margin: 15px 0; /* Increased margin */
+    font-size: 1.5em; /* Increased font size */
 }
 
+/* Enlarged and styled links */
 a {
     text-decoration: none;
     color: #0056b3;
-    font-size: 1.2em;
+    font-size: 1.8em; /* Increased font size */
 }
 
 a:hover {
     text-decoration: underline;
     color: #004494;
+}
+
+/* Additional Styling for Results Page */
+#wyniki-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+#wyniki-list li {
+    margin-bottom: 30px; /* Increased margin for better spacing */
+    text-align: left; /* Align text to the left */
+    font-size: 1.5em; /* Increased font size */
+}
+
+#wyniki-list li p {
+    margin-bottom: 10px; /* Increased margin */
+    line-height: 1.6; /* Improved line spacing */
+}
+
+#wyniki-list li hr {
+    border: 0;
+    height: 2px; /* Thicker line for better visibility */
+    background: #ccc;
+    margin: 30px 0; /* Increased margin */
+}
+
+/* Enlarged Checkboxes and Radio Buttons */
+input[type="checkbox"], input[type="radio"] {
+    transform: scale(1.8); /* Increased scale for larger inputs */
+    margin-right: 10px; /* Space between input and label */
+    vertical-align: middle; /* Align vertically with the text */
+    cursor: pointer; /* Change cursor to pointer for better UX */
+}
+
+/* Optional: Adjust the label to align with the scaled inputs */
+#options-container label {
+    display: inline-flex;
+    align-items: center;
+    cursor: pointer;
+    font-size: 1.5em; /* Ensure label text matches input scaling */
+}
+
+/* Enlarged Input Text Fields */
+#options-container input[type="text"] {
+    width: 100%; /* Full width for better usability */
+    max-width: 400px; /* Optional: limit maximum width */
+    padding: 15px; /* Increased padding for larger input area */
+    font-size: 1.5em; /* Increased font size */
+    margin-top: 10px; /* Spacing between inputs */
+    margin-bottom: 20px; /* Spacing below inputs */
+    border: 2px solid #0056b3; /* Enhanced border for visibility */
+    border-radius: 8px; /* Rounded corners */
+}
+
+/* Responsive Design Adjustments */
+@media (max-width: 1200px) {
+    #quiz-container {
+        max-width: 1000px; /* Adjust max-width for slightly smaller screens */
+    }
+
+    h1 {
+        font-size: 3em; /* Slightly reduced for smaller screens */
+    }
+
+    #question-text {
+        font-size: 2em;
+    }
+
+    button {
+        padding: 12px 25px;
+        font-size: 1.6em;
+    }
+
+    a {
+        font-size: 1.6em;
+    }
+
+    ul li, #options-container {
+        font-size: 1.3em;
+    }
+
+    #wyniki-list li {
+        font-size: 1.3em;
+    }
+
+    /* Adjust scale for checkboxes and radio buttons on smaller screens */
+    input[type="checkbox"], input[type="radio"] {
+        transform: scale(1.5);
+    }
+
+    /* Adjust input text fields */
+    #options-container input[type="text"] {
+        font-size: 1.3em;
+        padding: 12px;
+        max-width: 300px;
+    }
+}
+
+@media (max-width: 768px) {
+    #quiz-container {
+        max-width: 100%;
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 2.5em;
+    }
+
+    #question-text {
+        font-size: 1.8em;
+    }
+
+    button {
+        padding: 10px 20px;
+        font-size: 1.4em;
+        margin: 10px;
+    }
+
+    a {
+        font-size: 1.4em;
+    }
+
+    ul li, #options-container, #wyniki-list li {
+        font-size: 1.2em;
+    }
+
+    /* Adjust scale for checkboxes and radio buttons on smaller screens */
+    input[type="checkbox"], input[type="radio"] {
+        transform: scale(1.3);
+    }
+
+    /* Adjust input text fields */
+    #options-container input[type="text"] {
+        font-size: 1.2em;
+        padding: 10px;
+        max-width: 250px;
+    }
+}
+
+/* Ensure images are responsive */
+img {
+    max-width: 100%;
+    height: auto;
 }
