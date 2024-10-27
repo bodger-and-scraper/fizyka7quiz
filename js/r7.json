@@ -1,181 +1,226 @@
 {
-    "quiz": [
-      {
-        "question": ["1. Uzupełnij zdania 1 i 2, wybierając właściwą odpowiedź spośród podanych.",
-          "<br>1.) Energia wewnętrzna wody w naczyniu to A/ B/ C.",
-          "<br>2.) Temperatura wody w naczyniu zależy od D/ E/ F/ G."],
-        "type": "tickboxes",
-        "options": [
-          "A. suma energii kinetycznych i potencjalnych cząsteczek wody",
-          "B. całkowita energia kinetyczna cząsteczek wody",
-          "C. średnia energia kinetyczna cząsteczek wody",
-          "D. sumy energii cząsteczek wody",
-          "E. energii potencjalnej naczynia z wodą",
-          "F. masy wody",
-          "G. średniej energii kinetycznej cząsteczek wody"
-        ],
-        "correct_answers": ["A", "G"]
-      },
-      {
-        "question": "2. Temperaturze 100°C odpowiada w skali Kelvina A/ B/ C. Temperaturze 50 K odpowiada w skali Celsjusza D/ E/ F.",
-        "type": "tickboxes",
-        "options": [
-          "A. 283 K",
-          "B. 273 K",
-          "C. 373 K",
-          "D. 223°C",
-          "E. 173°C",
-          "F. -223°C"
-        ],
-        "correct_answers": ["C", "F"]
-      },
-      {
-        "question": "3. W których sytuacjach energia wewnętrzna ciała zmienia się na skutek wykonania pracy (A), a w których - na skutek przepływu ciepła (B)?",
-        "type": "input",
-        "options": [
-          "1. Górne warstwy wody ogrzewają się w naczyniu dzięki zjawisku konwekcji.",
-          "2. Kawałek drewna rozgrzewa się wskutek pocierania go kawałkiem papieru ściernego.",
-          "3. Owocowy napój ochłodził się po wrzuceniu do niego kostek lodu.",
-          "4. Siedzący przy ognisku ludzie poczuli ciepło.",
-          "5. W czasie pompowania piłki pompka rozgrzała się."
-        ],
-        "correct_answers": ["1. B", "2. A", "3. B", "4. B", "5. A"]
-      },
-      {
-        "question": "4. W każdej parze zaznacz substancję, która jest lepszym izolatorem cieplnym.",
-        "type": "input",
-        "options": [
-          ["A. powietrze ","B. miedziany drut "],
-          ["C. drewno ","D. woda "],
-          ["E. woda ", "F. powietrze"],
-          ["G. żelazo ","H. drewno"]
-        ],
-        "correct_answers": ["1. A", "2. C", "3. F", "4. H"]
-      },
-      {
-        "question": "5. Podczas pieczenia ciasta w piekarniku zaznacz odpowiedź 1 lub 2 i jej uzasadnienie A albo B.",
-        "type": "tickboxes",
-        "options": [
-          "1. Górne warstwy powietrza w kuchni nagrzewają się bardziej",
-          "2. Dolne warstwy powietrza w kuchni nagrzewają się bardziej",
-          "A. zachodzi zjawisko przewodnictwa",
-          "B. zachodzi zjawisko konwekcji"
-        ],
-        "correct_answers": ["2", "B"]
-      },
-      {
-        "question": ["6. Uzupełnij zdania 1 i 2, wybierając właściwą odpowiedź spośród podanych.",
-          "<br>1. Ciepło właściwe wody to ilość ciepła potrzebna do ogrzania A/ B/ C/ D.",
-          "<br>2. Jednostką ciepła właściwego jest E/ F."],
-        "type": "tickboxes",
-        "options": [
-          "A. 1 kg wody o 1°C",
-          "B. 1 kg wody o 10°C",
-          "C. 1 kg wody w ciągu 10 s",
-          "D. 10 kg wody o 1°",
-          "E. J/°C",
-          "F. J/(kg · °C)"
-        ],
-        "correct_answers": ["A", "F"]
-      },
-      {
-        "question": "7. W trzech naczyniach znajdują się trzy różne ciecze. Której cieczy należy dostarczyć najmniejszą ilość energii, aby zwiększyć jej temperaturę o 1°C?",
-        "type": "radio_button",
-        "options": [
-          "A. Ciecz 1",
-          "B. Ciecz 2",
-          "C. Ciecz 3"
-        ],
-        "correct_answers": ["A"],
-        "image":"assets/r7z7.png"
-
-      },
-      {
-        "question": "8. Skraplanie jest zjawiskiem odwrotnym do A/ B/ C/ D. Krzepnięcie jest zjawiskiem odwrotnym do A/ B/ C/ D.",
-        "type": "tickboxes",
-        "options": [
-          "A. topnienia",
-          "B. sublimacji",
-          "C. resublimacji",
-          "D. parowania"
-        ],
-        "correct_answers": ["D", "A"]
-      },
-      {
-        "question": "9. Proces, podczas którego ciało w stanie stałym przechodzi bezpośrednio w stan gazowy, nazywamy:",
-        "type": "radio_button",
-        "options": [
-          "A. parowaniem",
-          "B. skraplaniem",
-          "C. sublimacją",
-          "D. resublimacją",
-          "E. topnieniem"
-        ],
-        "correct_answers": ["C"]
-      },
-      {
-        "question": "10. Podczas topnienia mieszaniny wody i lodu temperatura A/ B. Proces postępuje dzięki C/ D energii.",
-        "type": "tickboxes",
-        "options": [
-          "A. stale rośnie",
-          "B. jest stała",
-          "C. dostarczaniu",
-          "D. oddawaniu"
-        ],
-        "correct_answers": ["B", "C"]
-      },
-      {
-        "question": "11. Oceń prawdziwość zdań. Zaznacz P, jeżeli zdanie jest prawdziwe, lub F, jeżeli jest fałszywe.",
-        "type": "input",
-        "options": [
-          "1. W przypadku ciał krystalicznych temperatura topnienia jest taka sama, jak temperatura krzepnięcia.",
-          "2. Podczas topnienia i krzepnięcia substancja wymienia z otoczeniem takie same ilości energii.",
-          "3. Po osiągnięciu temperatury topnienia ciało przechodzi w stan ciekły nawet wtedy, gdy przestajemy mu dostarczać energię.",
-          "4. Topnienie ciał bezpostaciowych wymaga dostarczenia większej ilości energii niż topnienie ciał krystalicznych."
-        ],
-        "correct_answers": ["1. P", "2. P", "3. F", "4. F"]
-      },
-      {
-        "question": "12a.Zaznacz właściwe rysunki.<br>W którym z naczyń szybciej stopi się kostka lodu?",
-        "type": "radio_button",
-        "options": [
-          "A. Naczynie 1",
-          "B. Naczynie 2"
-        ],
-        "correct_answers": ["B"],
-        "image": ["assets/r7z12a.png"]
-      },
-      {
-        "question": "12b.Zaznacz właściwe rysunki.<br>Która z cieczy o takich samych masach, znajdujących się w identycznych warunkach, wyparuje szybciej?",
-        "type": "radio_button",
-        "options": [
-          "A. Naczynie 1",
-          "B. Naczynie 2"
-        ],
-        "correct_answers": ["B"],
-        "image": ["assets/r7z12b.png"]
-      },
-      {
-        "question": "12c.Zaznacz właściwe rysunki.<br>W którym naczyniu alkohol możemy podgrzać o 2°C, dostarczając mniejszej ilości energii?",
-        "type": "radio_button",
-        "options": [
-          "A. Naczynie 1",
-          "B. Naczynie 2"
-        ],
-        "correct_answers": ["A"],
-        "image": ["assets/r7z12c.png"]
-      },
-      {
-        "question": "13.Zaznacz, które zdania są prawdziwe, a które fałszywe.",
-        "type": "input",
-        "options": [
-          "1. Woda paruje najszybciej w temperaturze 0°C.",
-          "2. Ciepło parowania jest to temperatura potrzebna do zamiany cieczy w parę. ",
-          "3. Energię potrzebną do ogrzania 1 kg substancji o 1°C nazywamy ciepłem właściwym. ",
-          "4. Ciała bezpostaciowe nie mają jednoznacznie określonej temperatury topnienia.",
-          "5. Temperatura wrzenia to ciepło, które należy dostarczyć, aby doprowadzić 1 kg cieczy do wrzenia."
-        ],
-        "correct_answers": ["1. F", "2. F", "3. P", "4. P", "5. F"]
-      }
-    ]
-  }
+  "quiz": [
+    {
+      "question": [
+        "1a. Uzupełnij zdania 1 i 2, wybierając właściwą odpowiedź spośród podanych.",
+        "1.) Energia wewnętrzna wody w naczyniu to A/ B/ C."
+      ],
+      "type": "tickboxes",
+      "options": [
+        "A. suma energii kinetycznych i potencjalnych cząsteczek wody",
+        "B. całkowita energia kinetyczna cząsteczek wody",
+        "C. średnia energia kinetyczna cząsteczek wody"
+      ],
+      "correct_answers": ["A"],
+      "explanation": "Energia wewnętrzna to suma energii kinetycznych i potencjalnych wszystkich cząsteczek."
+    },
+    {
+      "question": "1b. Temperatura wody w naczyniu zależy od D/ E/ F/ G.",
+      "type": "tickboxes",
+      "options": [
+        "D. sumy energii cząsteczek wody",
+        "E. energii potencjalnej naczynia z wodą",
+        "F. masy wody",
+        "G. średniej energii kinetycznej cząsteczek wody"
+      ],
+      "correct_answers": ["G"],
+      "explanation": "Temperatura jest miarą średniej energii kinetycznej cząsteczek."
+    },
+    {
+      "question": "2. Temperaturze 100°C odpowiada w skali Kelvina A/ B/ C. Temperaturze 50 K odpowiada w skali Celsjusza D/ E/ F.",
+      "type": "tickboxes",
+      "options": [
+        "A. 283 K",
+        "B. 273 K",
+        "C. 373 K",
+        "D. 223°C",
+        "E. 173°C",
+        "F. -223°C"
+      ],
+      "correct_answers": ["C", "F"],
+      "explanation": "100°C = 373 K; 50 K = -223°C (50 K - 273 = -223°C)."
+    },
+    {
+      "question": "3. W których sytuacjach energia wewnętrzna ciała zmienia się na skutek wykonania pracy (A), a w których - na skutek przepływu ciepła (B)?",
+      "type": "input",
+      "options": [
+        "1. Górne warstwy wody ogrzewają się w naczyniu dzięki zjawisku konwekcji.",
+        "2. Kawałek drewna rozgrzewa się wskutek pocierania go kawałkiem papieru ściernego.",
+        "3. Owocowy napój ochłodził się po wrzuceniu do niego kostek lodu.",
+        "4. Siedzący przy ognisku ludzie poczuli ciepło.",
+        "5. W czasie pompowania piłki pompka rozgrzała się."
+      ],
+      "correct_answers": ["1. B", "2. A", "3. B", "4. B", "5. A"],
+      "explanation": "Zmiana energii wewnętrznej przez pracę (A) lub ciepło (B)."
+    },
+    {
+      "question": "4. W każdej parze zaznacz substancję, która jest lepszym izolatorem cieplnym.",
+      "type": "tickboxes",
+      "options": [
+        "A. powietrze",
+        "B. miedziany drut",
+        "C. drewno",
+        "D. woda",
+        "E. woda",
+        "F. powietrze",
+        "G. żelazo",
+        "H. drewno"
+      ],
+      "correct_answers": ["A", "C", "F", "H"],
+      "explanation": "Lepszymi izolatorami są: powietrze, drewno."
+    },
+    {
+      "question": "5. Podczas pieczenia ciasta w piekarniku zaznacz odpowiedź 1 lub 2 i jej uzasadnienie A albo B.",
+      "type": "tickboxes",
+      "options": [
+        "1. Górne warstwy powietrza w kuchni nagrzewają się bardziej",
+        "2. Dolne warstwy powietrza w kuchni nagrzewają się bardziej",
+        "A. zachodzi zjawisko przewodnictwa",
+        "B. zachodzi zjawisko konwekcji"
+      ],
+      "correct_answers": ["1", "B"],
+      "explanation": "Ciepłe powietrze unosi się do góry (konwekcja)."
+    },
+    {
+      "question": "6a. Uzupełnij zdania 1 i 2, wybierając właściwą odpowiedź spośród podanych.\n1. Ciepło właściwe wody to ilość ciepła potrzebna do ogrzania A/ B/ C/ D.",
+      "type": "tickboxes",
+      "options": [
+        "A. 1 kg wody o 1°C",
+        "B. 1 kg wody o 10°C",
+        "C. 1 kg wody w ciągu 10 s",
+        "D. 10 kg wody o 1°C"
+      ],
+      "correct_answers": ["A"],
+      "explanation": ""
+    },
+    {
+      "question": "6b. Jednostką ciepła właściwego jest E/ F.",
+      "type": "tickboxes",
+      "options": [
+        "E. J/°C",
+        "F. J/(kg·°C)"
+      ],
+      "correct_answers": ["F"],
+      "explanation": "Jednostka ciepła właściwego to J/(kg·°C)."
+    },
+    {
+      "question": "7. W trzech naczyniach znajdują się trzy różne ciecze. Której cieczy należy dostarczyć najmniejszą ilość energii, aby zwiększyć jej temperaturę o 1°C?",
+      "type": "radio_button",
+      "options": [
+        "A. Ciecz 1",
+        "B. Ciecz 2",
+        "C. Ciecz 3"
+      ],
+      "correct_answers": ["B"],
+      "image": "assets/r7z7.png",
+      "explanation": "Ciecz o najmniejszym cieple właściwym wymaga mniej energii."
+    },
+    {
+      "question": "8a. Skraplanie jest zjawiskiem odwrotnym do A/ B/ C/ D.",
+      "type": "tickboxes",
+      "options": [
+        "A. topnienia",
+        "B. sublimacji",
+        "C. resublimacji",
+        "D. parowania"
+      ],
+      "correct_answers": ["D"],
+      "explanation": "Skraplanie to odwrotność parowania."
+    },
+    {
+      "question": "8b. Krzepnięcie jest zjawiskiem odwrotnym do A/ B/ C/ D.",
+      "type": "tickboxes",
+      "options": [
+        "A. topnienia",
+        "B. sublimacji",
+        "C. resublimacji",
+        "D. parowania"
+      ],
+      "correct_answers": ["A"],
+      "explanation": "Krzepnięcie to odwrotność topnienia."
+    },
+    {
+      "question": "9. Proces, podczas którego ciało w stanie stałym przechodzi bezpośrednio w stan gazowy, nazywamy:",
+      "type": "radio_button",
+      "options": [
+        "A. parowaniem",
+        "B. skraplaniem",
+        "C. sublimacją",
+        "D. resublimacją",
+        "E. topnieniem"
+      ],
+      "correct_answers": ["C"],
+      "explanation": ""
+    },
+    {
+      "question": "10. Podczas topnienia mieszaniny wody i lodu temperatura A/ B. Proces postępuje dzięki C/ D energii.",
+      "type": "tickboxes",
+      "options": [
+        "A. stale rośnie",
+        "B. jest stała",
+        "C. dostarczaniu",
+        "D. oddawaniu"
+      ],
+      "correct_answers": ["B", "C"],
+      "explanation": "Temperatura topnienia jest stała; proces wymaga dostarczania energii."
+    },
+    {
+      "question": "11. Oceń prawdziwość zdań. Zaznacz P, jeżeli zdanie jest prawdziwe, lub F, jeżeli jest fałszywe.",
+      "type": "input",
+      "options": [
+        "1. W przypadku ciał krystalicznych temperatura topnienia jest taka sama, jak temperatura krzepnięcia.",
+        "2. Podczas topnienia i krzepnięcia substancja wymienia z otoczeniem takie same ilości energii.",
+        "3. Po osiągnięciu temperatury topnienia ciało przechodzi w stan ciekły nawet wtedy, gdy przestajemy mu dostarczać energię.",
+        "4. Topnienie ciał bezpostaciowych wymaga dostarczenia większej ilości energii niż topnienie ciał krystalicznych."
+      ],
+      "correct_answers": ["1. P", "2. P", "3. F", "4. F"],
+      "explanation": ""
+    },
+    {
+      "question": "12a. Zaznacz właściwe rysunki.\nW którym z naczyń szybciej stopi się kostka lodu?",
+      "type": "radio_button",
+      "options": [
+        "A. Naczynie 1",
+        "B. Naczynie 2"
+      ],
+      "correct_answers": ["A"],
+      "image": "assets/r7z12a.png",
+      "explanation": "Kostka lodu szybciej stopi się w cieplejszym otoczeniu."
+    },
+    {
+      "question": "12b. Która z cieczy o takich samych masach, znajdujących się w identycznych warunkach, wyparuje szybciej?",
+      "type": "radio_button",
+      "options": [
+        "A. Naczynie 1",
+        "B. Naczynie 2"
+      ],
+      "correct_answers": ["B"],
+      "image": "assets/r7z12b.png",
+      "explanation": "Ciecz z większą powierzchnią parowania wyparuje szybciej."
+    },
+    {
+      "question": "12c. W którym naczyniu alkohol możemy podgrzać o 2°C, dostarczając mniejszej ilości energii?",
+      "type": "radio_button",
+      "options": [
+        "A. Naczynie 1",
+        "B. Naczynie 2"
+      ],
+      "correct_answers": ["A"],
+      "image": "assets/r7z12c.png",
+      "explanation": "Mniejsza masa wymaga mniej energii do podgrzania."
+    },
+    {
+      "question": "13. Zaznacz, które zdania są prawdziwe, a które fałszywe.",
+      "type": "input",
+      "options": [
+        "1. Woda paruje najszybciej w temperaturze 0°C.",
+        "2. Ciepło parowania jest to temperatura potrzebna do zamiany cieczy w parę.",
+        "3. Energię potrzebną do ogrzania 1 kg substancji o 1°C nazywamy ciepłem właściwym.",
+        "4. Ciała bezpostaciowe nie mają jednoznacznie określonej temperatury topnienia.",
+        "5. Temperatura wrzenia to ciepło, które należy dostarczyć, aby doprowadzić 1 kg cieczy do wrzenia."
+      ],
+      "correct_answers": ["1. F", "2. F", "3. P", "4. P", "5. F"],
+      "explanation": "1. F - Woda paruje szybciej w wyższych temperaturach.\n2. F - Ciepło parowania to ilość energii, nie temperatura.\n5. F - Temperatura wrzenia to stała temperatura, nie ilość ciepła."
+    }
+  ]
+}

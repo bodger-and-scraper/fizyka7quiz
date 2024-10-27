@@ -17,7 +17,7 @@ body {
     margin: 0;
     padding: 20px; /* Adds spacing around the content */
     overflow-y: auto; /* Enables vertical scrolling */
-    font-size: 1.5rem; /* Sets base font size to 150% */
+    font-size: 0.8rem; 
 }
 
 /* Enhanced #quiz-container styles for better visibility and width */

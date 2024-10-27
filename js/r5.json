@@ -1,168 +1,182 @@
 {
-    "quiz": [
-      {
-        "question": "1a. Uzupełnij zdania 1 i 2, wybierając właściwą odpowiedź spośród podanych.<br>Gdy autobus gwałtownie ruszy z przystanku, pasażer siedzący w fotelu przodem do kierowcy A/ B/ C/ D.",
-        "type": "radio_button",
-        "options": [
-          "A. przechyli się w stronę kierowcy (do przodu pojazdu)",
-          "B. nie odczuje żadnego oddziaływania",
-          "C. zostanie dociśnięty do oparcia fotela",
-          "D. przechyli się do tyłu pojazdu"
-        ],
-        "correct_answers": ["C"]
-      },
-      {
-        "question": "1b. Uzupełnij zdania 1 i 2, wybierając właściwą odpowiedź spośród podanych.<br>Gdy autobus gwałtownie ruszy z przystanku, pasażer siedzący w fotelu tyłem do kierowcy A/ B/ C/ D.",
-        "type": "radio_button",
-        "options": [
-          "A. przechyli się w stronę kierowcy (do przodu pojazdu)",
-          "B. nie odczuje żadnego oddziaływania",
-          "C. zostanie dociśnięty do oparcia fotela",
-          "D. przechyli się do tyłu pojazdu"
-        ],
-        "correct_answers": ["D"]
-      },
-      {
-        "question": "2. Zaznacz sytuacje, w których bezwładność odgrywa pozytywną rolę.",
-        "type": "tickboxes",
-        "options": [
-          "A. wbijanie gwoździa młotkiem",
-          "B. przesuwanie szafy",
-          "C. hamowanie samochodu",
-          "D. wirowanie upranych ubrań"
-        ],
-        "correct_answers": ["A","D"]
-      },
-      {
-        "question": "3. Który siłomierz wskazuje większą wartość siły?",
-        "type": "radio_button",
-        "options": [
-          "A. Większą wartość siły wskazuje siłomierz A",
-          "B. Większą wartość siły wskazuje siłomierz B"
-        ],
-        "correct_answers": ["A"],
-        "image":"assets/r5z3.png"
-
-      },
-      {
-        "question": "4. Uzupełnij zdania właściwymi zwrotami.<br>Jeżeli na ciało działają dwie siły o jednakowej wartości, a ciało pozostaje w spoczynku, to siły te mają A/ B zwroty. Jeśli na dwa ciała o różnych masach działają takie same siły, to C/ D przyspieszenie uzyska ciało o mniejszej masie.",
-        "type": "tickboxes",
-        "options": [
-            "A. takie same",
-            "B. przeciwne",
-            "C. większe",
-            "D. mniejsze"
-        ],
-        "correct_answers": ["B", "C"]
-      },
-      {
-        "question": "5. Uzupełnij zadanie właściwymi zwrotami.<br>Jeśli na ciało działa niezrównoważona siła, porusza się ono ruchem A/ B, to znaczy, że C/ D zmienia się o taką samą wartość w kolejnych, równych odstępach czasu.",
-        "type": "tickboxes",
-        "options": [
-            "A. jednostajnie zmiennym",
-            "B. jednostajnym prostoliniowym",
-            "C. prędkość",
-            "D. przyspieszenie"
-        ],
-        "correct_answers": ["A", "C"]
-      },
-      {
-        "question": "6. Robotnik o masie 82 kg podnosi ładunek cegieł na linie przewieszonej przez bloczek. Jaką maksymalną siłą może działać?",
-        "type": "radio_button",
-        "options": [
-          "A. 8,2 N",
-          "B. 82 N",
-          "C. 820 N",
-          "D. 8200 N"
-        ],
-        "correct_answers": ["C"]
-      },
-      {
-        "question": "7. Po jakim czasie ciało spadające w próżni uzyska prędkość 90 km/h?",
-        "type": "radio_button",
-        "options": [
-          "A. 9 s",
-          "B. 2,5 s",
-          "C. 2,5 min",
-          "D. 9 min"
-        ],
-        "correct_answers": ["B"]
-      },
-      {
-        "question": "8. Jeśli w próżni z jednakowych wysokości upuścimy równocześnie arbuz i brzoskwinię, to:",
-        "type": "radio_button",
-        "options": [
-          "A. szybciej spadnie brzoskwinia",
-          "B. szybciej spadnie arbuz",
-          "C. oba owoce spadną równocześnie"
-        ],
-        "correct_answers": ["C"]
-      },
-      {
-        "question": "9. Zaznacz P, jeśli zdanie jest prawdziwe, lub F, jeśli jest fałszywe.",
-        "type": "input",
-        "options": [
-          "1. Masa jest miarą bezwładności ciała.",
-          "2. Czas swobodnego spadania ciała zależy od jego masy.",
-          "3. 1 N to wartość siły wypadkowej, która ciału o masie 1 kg nadaje przyspieszenie 1 m/s²."
-        ],
-        "correct_answers": ["1. P", "2. F", "3. P"]
-      },
-      {
-        "question": "10. Oceń zdania. Wybierz P, jeśli zdanie jest prawdziwe, lub F - jeśli jest fałszywe.Magnes przyciąga żelazny gwóźdź siłą, a żelazny gwóźdź przyciąga magnes siłą F1->, a żelazny gwóźdź przyciąga magnes siłą F2->. Siły F1-> i F2-> mają:",
-        "type": "input",
-        "options": [
-          "1. taką samą wartość.",
-          "2. ten sam punkt przyłożenia. ",
-          "3. różne kierunki.",
-          "4. przeciwne zwroty."
-        ],
-        "correct_answers": ["1. P", "2. F", "3. F", "4. P"]
-      },
-      {
-        "question": "11. Uzupełnij poniższe zdanie. Wybierz właściwą odpowiedź spośród podanych. Treść III zasady dynamiki Newtona to:",
-        "type": "radio_button",
-        "options": [
-          "A. Jeżeli na ciało nie działają żadne siły lub działające siły równoważą się, to ciało pozostaje w spoczynku lub porusza się ruchem jednostajnym prostoliniowym",
-          "B. Jeżeli na ciało działa niezrównoważona siła, to porusza się ono ruchem zmiennym z przyspieszeniem wprost proporcjonalnym do działającej siły",
-          "C. Jeżeli jedno ciało działa pewną siłą na drugie ciało, to drugie ciało oddziałuje na pierwsze siłą równą co do wartości, mającą ten sam kierunek, lecz przeciwny zwrot"
-        ],
-        "correct_answers": ["C"]
-      },
-      {
-        "question": "12. W wielu miejscach Polski istnieje zwyczaj uderzania dwoma pisankami o siebie. Jeśli pisanka Oli uderzyła w pisankę Asi siłą 3 N, to pisanka Asi uderzyła w pisankę Oli z siłą:",
-        "type": "radio_button",
-        "options": [
-          "A. 15 N",
-          "B. 1,5 N",
-          "C. 0,15 N",
-          "D. 3 N"
-        ],
-        "correct_answers": ["D"]
-      },
-      {
-        "question": "13. W każdej parze ciał zaznacz to, na które działają mniejsze siły oporu podczas ruchu.",
-        "type": "tickboxes",
-        "options": [
-          "A. Bocian",
-          "B. Jaskółka",
-          "C. Asfalt",
-          "D. Lód"
-        ],
-        "correct_answers": ["B","D"],
-        "image":"assets/r5z13.png"
-      },
-      {
-        "question": "14. Fotografie przedstawiają różne ciała w ruchu. Na której fotografii ruchowi ciała nie towarzyszą siły oporu ruchu (np. tarcie)? Wybierz odpowiedź spośród podanych.",
-        "type": "radio_button",
-        "options": [
-          "A. Fotografia 1",
-          "B. Fotografia 2",
-          "C. Fotografia 3",
-          "D. Fotografia 4"
-        ],
-        "correct_answers": ["C"],
-        "image":"assets/r5z14.png"
-      }
-    ]
-  }
+  "quiz": [
+    {
+      "question": "1a. Uzupełnij zdania 1 i 2, wybierając właściwą odpowiedź spośród podanych.\n\nGdy autobus gwałtownie ruszy z przystanku, pasażer siedzący w fotelu przodem do kierowcy A/ B/ C/ D.",
+      "type": "radio_button",
+      "options": [
+        "A. przechyli się w stronę kierowcy (do przodu pojazdu)",
+        "B. nie odczuje żadnego oddziaływania",
+        "C. zostanie dociśnięty do oparcia fotela",
+        "D. przechyli się do tyłu pojazdu"
+      ],
+      "correct_answers": ["C"],
+      "explanation": ""
+    },
+    {
+      "question": "1b. Gdy autobus gwałtownie ruszy z przystanku, pasażer siedzący w fotelu tyłem do kierowcy A/ B/ C/ D.",
+      "type": "radio_button",
+      "options": [
+        "A. przechyli się w stronę kierowcy (do przodu pojazdu)",
+        "B. nie odczuje żadnego oddziaływania",
+        "C. zostanie dociśnięty do oparcia fotela",
+        "D. przechyli się do tyłu pojazdu"
+      ],
+      "correct_answers": ["D"],
+      "explanation": "Pasażer siedzący tyłem do kierowcy podczas przyspieszania poczuje się przechylony do tyłu pojazdu."
+    },
+    {
+      "question": "2. Zaznacz sytuacje, w których bezwładność odgrywa pozytywną rolę.",
+      "type": "tickboxes",
+      "options": [
+        "A. wbijanie gwoździa młotkiem",
+        "B. przesuwanie szafy",
+        "C. hamowanie samochodu",
+        "D. wirowanie upranych ubrań"
+      ],
+      "correct_answers": ["A", "D"],
+      "explanation": "A. Bezładność młotka pomaga w przekazaniu siły na gwóźdź.\nD. Bezładność powoduje oddzielenie wody od ubrań podczas wirowania."
+    },
+    {
+      "question": "3. Który siłomierz wskazuje większą wartość siły?",
+      "type": "radio_button",
+      "options": [
+        "A. Większą wartość siły wskazuje siłomierz A",
+        "B. Większą wartość siły wskazuje siłomierz B"
+      ],
+      "correct_answers": ["A"],
+      "image": "assets/r5z3.png",
+      "explanation": ""
+    },
+    {
+      "question": "4. Uzupełnij zdania właściwymi zwrotami.\nJeżeli na ciało działają dwie siły o jednakowej wartości, a ciało pozostaje w spoczynku, to siły te mają A/ B zwroty. Jeśli na dwa ciała o różnych masach działają takie same siły, to C/ D przyspieszenie uzyska ciało o mniejszej masie.",
+      "type": "tickboxes",
+      "options": [
+        "A. takie same",
+        "B. przeciwne",
+        "C. większe",
+        "D. mniejsze"
+      ],
+      "correct_answers": ["B", "C"],
+      "explanation": "Siły równoważą się, gdy mają przeciwny zwrot. Ciało o mniejszej masie uzyska większe przyspieszenie przy tej samej sile."
+    },
+    {
+      "question": "5. Uzupełnij zadanie właściwymi zwrotami.\nJeśli na ciało działa niezrównoważona siła, porusza się ono ruchem A/ B, to znaczy, że C/ D zmienia się o taką samą wartość w kolejnych, równych odstępach czasu.",
+      "type": "tickboxes",
+      "options": [
+        "A. jednostajnie zmiennym",
+        "B. jednostajnym prostoliniowym",
+        "C. prędkość",
+        "D. przyspieszenie"
+      ],
+      "correct_answers": ["A", "C"],
+      "explanation": "Ciało porusza się ruchem jednostajnie zmiennym; jego prędkość zmienia się liniowo w czasie."
+    },
+    {
+      "question": "6. Robotnik o masie 82 kg podnosi ładunek cegieł na linie przewieszonej przez bloczek. Jaką maksymalną siłą może działać?",
+      "type": "radio_button",
+      "options": [
+        "A. 8,2 N",
+        "B. 82 N",
+        "C. 820 N",
+        "D. 8200 N"
+      ],
+      "correct_answers": ["C"],
+      "explanation": "Siła, jaką może wywierać, jest równa jego ciężarowi: F = m × g = 82 kg × 10 m/s² = 820 N."
+    },
+    {
+      "question": "7. Po jakim czasie ciało spadające w próżni uzyska prędkość 90 km/h?",
+      "type": "radio_button",
+      "options": [
+        "A. 9 s",
+        "B. 2,5 s",
+        "C. 2,5 min",
+        "D. 9 min"
+      ],
+      "correct_answers": ["B"],
+      "explanation": "90 km/h = 25 m/s; t = v / g = 25 m/s / 10 m/s² = 2,5 s."
+    },
+    {
+      "question": "8. Jeśli w próżni z jednakowych wysokości upuścimy równocześnie arbuz i brzoskwinię, to:",
+      "type": "radio_button",
+      "options": [
+        "A. szybciej spadnie brzoskwinia",
+        "B. szybciej spadnie arbuz",
+        "C. oba owoce spadną równocześnie"
+      ],
+      "correct_answers": ["C"],
+      "explanation": "W próżni wszystkie ciała spadają z tym samym przyspieszeniem grawitacyjnym."
+    },
+    {
+      "question": "9. Zaznacz P, jeśli zdanie jest prawdziwe, lub F, jeśli jest fałszywe.",
+      "type": "input",
+      "options": [
+        "1. Masa jest miarą bezwładności ciała.",
+        "2. Czas swobodnego spadania ciała zależy od jego masy.",
+        "3. 1 N to wartość siły wypadkowej, która ciału o masie 1 kg nadaje przyspieszenie 1 m/s²."
+      ],
+      "correct_answers": ["1. P", "2. F", "3. P"],
+      "explanation": "2. F - Czas spadania nie zależy od masy ciała."
+    },
+    {
+      "question": "10. Oceń zdania. Wybierz P, jeśli zdanie jest prawdziwe, lub F - jeśli jest fałszywe.\nMagnes przyciąga żelazny gwóźdź siłą F1→, a żelazny gwóźdź przyciąga magnes siłą F2→. Siły F1→ i F2→ mają:",
+      "type": "input",
+      "options": [
+        "1. taką samą wartość.",
+        "2. ten sam punkt przyłożenia.",
+        "3. różne kierunki.",
+        "4. przeciwne zwroty."
+      ],
+      "correct_answers": ["1. P", "2. F", "3. F", "4. P"],
+      "explanation": "1. P - Siły są równe.\n2. F - Punkty przyłożenia są różne.\n3. F - Kierunek ten sam.\n4. P - Zwroty przeciwne."
+    },
+    {
+      "question": "11. Uzupełnij poniższe zdanie. Wybierz właściwą odpowiedź spośród podanych. Treść III zasady dynamiki Newtona to:",
+      "type": "radio_button",
+      "options": [
+        "A. Jeżeli na ciało nie działają żadne siły lub działające siły równoważą się, to ciało pozostaje w spoczynku lub porusza się ruchem jednostajnym prostoliniowym",
+        "B. Jeżeli na ciało działa niezrównoważona siła, to porusza się ono ruchem zmiennym z przyspieszeniem wprost proporcjonalnym do działającej siły",
+        "C. Jeżeli jedno ciało działa pewną siłą na drugie ciało, to drugie ciało oddziałuje na pierwsze siłą równą co do wartości, mającą ten sam kierunek, lecz przeciwny zwrot"
+      ],
+      "correct_answers": ["C"],
+      "explanation": ""
+    },
+    {
+      "question": "12. W wielu miejscach Polski istnieje zwyczaj uderzania dwoma pisankami o siebie. Jeśli pisanka Oli uderzyła w pisankę Asi siłą 3 N, to pisanka Asi uderzyła w pisankę Oli z siłą:",
+      "type": "radio_button",
+      "options": [
+        "A. 15 N",
+        "B. 1,5 N",
+        "C. 0,15 N",
+        "D. 3 N"
+      ],
+      "correct_answers": ["D"],
+      "explanation": "Zgodnie z III zasadą dynamiki Newtona siły są równe co do wartości."
+    },
+    {
+      "question": "13. W każdej parze ciał zaznacz to, na które działają mniejsze siły oporu podczas ruchu.",
+      "type": "tickboxes",
+      "options": [
+        "A. Bocian",
+        "B. Jaskółka",
+        "C. Asfalt",
+        "D. Lód"
+      ],
+      "correct_answers": ["B", "D"],
+      "image": "assets/r5z13.png",
+      "explanation": "B. Jaskółka ma bardziej opływowy kształt niż bocian.\nD. Lód ma mniejszy współczynnik tarcia niż asfalt."
+    },
+    {
+      "question": "14. Fotografie przedstawiają różne ciała w ruchu. Na której fotografii ruchowi ciała nie towarzyszą siły oporu ruchu (np. tarcie)? Wybierz odpowiedź spośród podanych.",
+      "type": "radio_button",
+      "options": [
+        "A. Fotografia 1",
+        "B. Fotografia 2",
+        "C. Fotografia 3",
+        "D. Fotografia 4"
+      ],
+      "correct_answers": ["C"],
+      "image": "assets/r5z14.png",
+      "explanation": "Na fotografii 3 przedstawiono ruch w próżni lub w stanie nieważkości, gdzie nie ma sił oporu."
+    }
+  ]
+}
