@@ -15,22 +15,81 @@ document.addEventListener("DOMContentLoaded", () => {
     let isRevisitingUnanswered = false;
     let unansweredIndex = 0; // Index for the unanswered array
 
-    // Load quiz data based on chapter selection
+    // Helper function to get random questions from an array
+    function getRandomQuestions(questionsArray, numQuestions) {
+        // Shuffle the array
+        let shuffled = questionsArray.sort(() => 0.5 - Math.random());
+        // Return first numQuestions elements or fewer if not enough questions
+        return shuffled.slice(0, numQuestions);
+    }
+
+    // Helper function to shuffle an array
+    function shuffleArray(array) {
+        // Fisher-Yates shuffle algorithm
+        for (let i = array.length - 1; i > 0; i--) {
+            let j = Math.floor(Math.random() * (i + 1));
+            [array[i], array[j]] = [array[j], array[i]];
+        }
+        return array;
+    }
+
+    // **Load quiz data based on chapter selection**
     function loadQuizData(jsonPath) {
-        fetch(jsonPath)
-            .then(response => response.json())
-            .then(data => {
-                quizData = data.quiz;
-                currentQuestionIndex = 0; // Reset the index for new chapter
-                chapterLinks.style.display = "none";
-                const header = document.querySelector('h1');
-                if (header) header.style.display = "none"; // Hide header when a chapter is selected
-                quizContainer.style.display = "block"; // Show quiz container
-                questionContainer.style.display = "block"; // Show question container
-                startTime = new Date(); // Start the timer
-                displayQuestion(currentQuestionIndex);
-            })
-            .catch(error => console.error("Error loading quiz data:", error));
+        if (jsonPath === 'js/r_all.json') {
+            // List of all chapter JSON files
+            const chapterJsonPaths = [
+                'js/r1.json',
+                'js/r2.json',
+                'js/r3.json',
+                'js/r4.json',
+                'js/r5.json',
+                'js/r6.json',
+                'js/r7.json'
+            ];
+            let promises = chapterJsonPaths.map(path => fetch(path).then(response => response.json()));
+            Promise.all(promises)
+                .then(dataArray => {
+                    let allQuestions = [];
+                    let uniqueQuestions = new Set(); // **Set to track unique question texts**
+                    dataArray.forEach(data => {
+                        let questions = data.quiz;
+                        let randomQuestions = getRandomQuestions(questions, 5);
+                        randomQuestions.forEach(question => {
+                            // **Check if question text is unique**
+                            if (!uniqueQuestions.has(question.question)) {
+                                uniqueQuestions.add(question.question);
+                                allQuestions.push(question);
+                            }
+                        });
+                    });
+                    // Shuffle allQuestions
+                    quizData = shuffleArray(allQuestions);
+                    currentQuestionIndex = 0; // Reset the index for new chapter
+                    chapterLinks.style.display = "none";
+                    const header = document.querySelector('h1');
+                    if (header) header.style.display = "none"; // Hide header when a chapter is selected
+                    quizContainer.style.display = "block"; // Show quiz container
+                    questionContainer.style.display = "block"; // Show question container
+                    startTime = new Date(); // Start the timer
+                    displayQuestion(currentQuestionIndex);
+                })
+                .catch(error => console.error("Error loading quiz data:", error));
+        } else {
+            fetch(jsonPath)
+                .then(response => response.json())
+                .then(data => {
+                    quizData = data.quiz;
+                    currentQuestionIndex = 0; // Reset the index for new chapter
+                    chapterLinks.style.display = "none";
+                    const header = document.querySelector('h1');
+                    if (header) header.style.display = "none"; // Hide header when a chapter is selected
+                    quizContainer.style.display = "block"; // Show quiz container
+                    questionContainer.style.display = "block"; // Show question container
+                    startTime = new Date(); // Start the timer
+                    displayQuestion(currentQuestionIndex);
+                })
+                .catch(error => console.error("Error loading quiz data:", error));
+        }
     }
 
     // Display a specific question
@@ -171,32 +230,26 @@ document.addEventListener("DOMContentLoaded", () => {
                 unansweredIndex--;
             }
 
-            // Commented out to avoid immediate explanation alerts
-            // Show explanation immediately if desired
-            // if (question.explanation && question.explanation.trim() !== "") {
-            //     alert(`Wyjaśnienie: ${question.explanation}`);
-            // }
-        }
-
-        // Move to the next question
-        if (isRevisitingUnanswered) {
-            unansweredIndex++;
-            if (unansweredIndex < unanswered.length) {
-                displayQuestion(unanswered[unansweredIndex]);
+            // Move to the next question
+            if (isRevisitingUnanswered) {
+                unansweredIndex++;
+                if (unansweredIndex < unanswered.length) {
+                    displayQuestion(unanswered[unansweredIndex]);
+                } else {
+                    showResults();
+                }
             } else {
-                showResults();
-            }
-        } else {
-            currentQuestionIndex++;
-            if (currentQuestionIndex < quizData.length) {
-                displayQuestion(currentQuestionIndex);
-            } else if (unanswered.length > 0) {
-                // Start revisiting unanswered questions
-                isRevisitingUnanswered = true;
-                unansweredIndex = 0;
-                displayQuestion(unanswered[unansweredIndex]);
-            } else {
-                showResults();
+                currentQuestionIndex++;
+                if (currentQuestionIndex < quizData.length) {
+                    displayQuestion(currentQuestionIndex);
+                } else if (unanswered.length > 0) {
+                    // Start revisiting unanswered questions
+                    isRevisitingUnanswered = true;
+                    unansweredIndex = 0;
+                    displayQuestion(unanswered[unansweredIndex]);
+                } else {
+                    showResults();
+                }
             }
         }
     });
