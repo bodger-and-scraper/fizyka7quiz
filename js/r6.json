@@ -24,7 +24,7 @@
         "E. wprost",
         "F. odwrotnie"
       ],
-      "correct_answers": ["A", "C", "E"],
+      "correct_answers": ["B", "C", "E"],
       "image": "assets/r6z2.png",
       "explanation": "Praca W = F × s; dla 3 m: W = 5 N × 3 m = 15 J.\nPrzy 6 m praca będzie dwa razy większa.\nPraca jest wprost proporcjonalna do przemieszczenia."
     },
@@ -120,7 +120,7 @@
         "B. betonowa płyta o masie 500 kg podwieszona na dźwigu na wysokości 0,5 m",
         "C. doniczka z kwiatkiem o łącznej masie 95 dag ustawiona na balkonie na wysokości 5 m"
       ],
-      "correct_answers": ["A"],
+      "correct_answers": ["B"],
       "explanation": "Obliczamy Ep = m × g × h dla każdego.\nA: Ep = 1000 kg × 10 m/s² × 0.15 m = 1500 J\nB: Ep = 500 kg × 10 m/s² × 0.5 m = 2500 J\nC: Ep = 95 dag = 9.5 kg; Ep = 9.5 kg × 10 m/s² × 5 m = 475 J\nNajwiększą energię ma płyta betonowa (B). [Note: In the initial odp., the answer is B.]"
     },
     {
@@ -144,7 +144,7 @@
         "C. 64,8 J",
         "D. 64,8 kJ"
       ],
-      "correct_answers": ["B"],
+      "correct_answers": ["D"],
       "explanation": "Ek = (m × v²)/2 = (400 kg × 324 m²/s²)/2 = 64,800 J = 64.8 kJ"
     },
     {

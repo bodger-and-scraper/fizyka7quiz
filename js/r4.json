@@ -9,7 +9,7 @@
         "C. pasażera",
         "D. lokomotywy"
       ],
-      "correct_answers": ["A", "D"],
+      "correct_answers": ["B", "D"],
       "explanation": "Prędkość pasażera względem lokomotywy jest mniejsza niż względem toru. Wagony są w spoczynku względem lokomotywy."
     },
     {

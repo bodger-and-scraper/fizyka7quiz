@@ -74,22 +74,33 @@
       "image": "assets/r2z6.png",
       "explanation": ""
     },
-    {
-      "question": "7. Uzupełnij poniższe zdania.\n\na) Wybierz odpowiedź 1 lub 2 i jej uzasadnienie A albo B.\nCiecze 1 / 2 zmieniają kształt, ponieważ A / B.\n\nb) Wybierz odpowiedź 3 lub 4 i jej uzasadnienie C albo D.\nCiała stałe 3 / 4 zmieniają kształt, ponieważ C / D.",
-      "type": "tickboxes",
-      "options": [
-        "1. łatwo",
-        "2. trudno",
-        "A. oddziaływania międzycząsteczkowe w nich są słabe",
-        "B. oddziaływania międzycząsteczkowe w nich są silne",
-        "3. łatwo",
-        "4. trudno",
-        "C. oddziaływania międzycząsteczkowe w nich są słabe",
-        "D. oddziaływania międzycząsteczkowe w nich są silne"
-      ],
-      "correct_answers": ["1", "A", "4", "C"],
-      "explanation": "a) Ciecze łatwo zmieniają kształt, ponieważ oddziaływania międzycząsteczkowe w nich są słabe.\nb) Ciała stałe trudno zmieniają kształt, ponieważ oddziaływania międzycząsteczkowe w nich są silne."
+        {
+          "question": "7a. Uzupełnij poniższe zdania. Ciecze A/B zmieniają kształt, ponieważ: C/D",
+          "type": "tickboxes",
+          "options": [
+            "A. łatwo",
+            "B. trudno",
+            "C. oddziaływania międzycząsteczkowe w nich są słabe",
+            "D. oddziaływania międzycząsteczkowe w nich są silne"
+          ],
+          "correct_answers": ["A", "C"],
+          "explanation": "Ciecze łatwo zmieniają kształt, ponieważ oddziaływania międzycząsteczkowe w nich są słabe."
+        },
+        {
+          "question": "7b. Uzupełnij poniższe zdania. Ciała stałe A/B zmieniają kształt, ponieważ: C/D",
+          "type": "tickboxes",
+          "options": [
+            "A. łatwo",
+            "B. trudno",
+            "C. oddziaływania międzycząsteczkowe w nich są słabe",
+            "D. oddziaływania międzycząsteczkowe w nich są silne"
+          ],
+          "correct_answers": ["B", "D"],
+          "explanation": "Ciała stałe trudno zmieniają kształt, ponieważ oddziaływania międzycząsteczkowe w nich są silne."
+  
+      
     },
+     
     {
       "question": "8a. Uzupełnij poniższe zdanie.\nNajbardziej ściśliwe spośród trzech stanów skupienia są A/ B/ C.",
       "type": "radio_button",

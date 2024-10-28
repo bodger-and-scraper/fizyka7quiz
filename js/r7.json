@@ -15,15 +15,15 @@
       "explanation": "Energia wewnętrzna to suma energii kinetycznych i potencjalnych wszystkich cząsteczek."
     },
     {
-      "question": "1b. Temperatura wody w naczyniu zależy od D/ E/ F/ G.",
+      "question": "1b. Temperatura wody w naczyniu zależy od A/ B/ C/ D.",
       "type": "tickboxes",
       "options": [
-        "D. sumy energii cząsteczek wody",
-        "E. energii potencjalnej naczynia z wodą",
-        "F. masy wody",
-        "G. średniej energii kinetycznej cząsteczek wody"
+        "A. sumy energii cząsteczek wody",
+        "B. energii potencjalnej naczynia z wodą",
+        "C. masy wody",
+        "D. średniej energii kinetycznej cząsteczek wody"
       ],
-      "correct_answers": ["G"],
+      "correct_answers": ["D"],
       "explanation": "Temperatura jest miarą średniej energii kinetycznej cząsteczek."
     },
     {
@@ -53,32 +53,41 @@
       "correct_answers": ["1. B", "2. A", "3. B", "4. B", "5. A"],
       "explanation": "Zmiana energii wewnętrznej przez pracę (A) lub ciepło (B)."
     },
+   
+        {
+        "question": "4a. Która substancja jest lepszym izolatorem cieplnym?",
+        "type": "tickboxes",
+        "options": ["A. powietrze", "B. miedziany drut"],
+        "correct_answers": ["A"]
+      },
+      {
+        "question": "4b. Która substancja jest lepszym izolatorem cieplnym?",
+        "type": "tickboxes",
+        "options": ["A. drewno", "B. woda"],
+        "correct_answers": ["A"]
+      },
+      {
+        "question": "4c. Która substancja jest lepszym izolatorem cieplnym?",
+        "type": "tickboxes",
+        "options": ["A. woda", "B. powietrze"],
+        "correct_answers": ["B"]
+      },
+      {
+        "question": "4d. Która substancja jest lepszym izolatorem cieplnym?",
+        "type": "tickboxes",
+        "options": ["A. żelazo", "B. drewno"],
+        "correct_answers": ["B"]
+      },
     {
-      "question": "4. W każdej parze zaznacz substancję, która jest lepszym izolatorem cieplnym.",
+      "question": "5. Podczas pieczenia ciasta w piekarniku zaznacz odpowiedź A lub B i jej uzasadnienie (ponieważ) D albo C.",
       "type": "tickboxes",
       "options": [
-        "A. powietrze",
-        "B. miedziany drut",
-        "C. drewno",
-        "D. woda",
-        "E. woda",
-        "F. powietrze",
-        "G. żelazo",
-        "H. drewno"
+        "A. Górne warstwy powietrza w kuchni nagrzewają się bardziej",
+        "B. Dolne warstwy powietrza w kuchni nagrzewają się bardziej",
+        "C. zachodzi zjawisko przewodnictwa",
+        "D. zachodzi zjawisko konwekcji"
       ],
-      "correct_answers": ["A", "C", "F", "H"],
-      "explanation": "Lepszymi izolatorami są: powietrze, drewno."
-    },
-    {
-      "question": "5. Podczas pieczenia ciasta w piekarniku zaznacz odpowiedź 1 lub 2 i jej uzasadnienie A albo B.",
-      "type": "tickboxes",
-      "options": [
-        "1. Górne warstwy powietrza w kuchni nagrzewają się bardziej",
-        "2. Dolne warstwy powietrza w kuchni nagrzewają się bardziej",
-        "A. zachodzi zjawisko przewodnictwa",
-        "B. zachodzi zjawisko konwekcji"
-      ],
-      "correct_answers": ["1", "B"],
+      "correct_answers": ["A","D"],
       "explanation": "Ciepłe powietrze unosi się do góry (konwekcja)."
     },
     {
@@ -94,13 +103,13 @@
       "explanation": ""
     },
     {
-      "question": "6b. Jednostką ciepła właściwego jest E/ F.",
+      "question": "6b. Jednostką ciepła właściwego jest A/ B.",
       "type": "tickboxes",
       "options": [
-        "E. J/°C",
-        "F. J/(kg·°C)"
+        "A. J/°C",
+        "B. J/(kg·°C)"
       ],
-      "correct_answers": ["F"],
+      "correct_answers": ["B"],
       "explanation": "Jednostka ciepła właściwego to J/(kg·°C)."
     },
     {
@@ -111,7 +120,7 @@
         "B. Ciecz 2",
         "C. Ciecz 3"
       ],
-      "correct_answers": ["B"],
+      "correct_answers": ["A"],
       "image": "assets/r7z7.png",
       "explanation": "Ciecz o najmniejszym cieple właściwym wymaga mniej energii."
     },
@@ -152,18 +161,19 @@
       "correct_answers": ["C"],
       "explanation": ""
     },
-    {
-      "question": "10. Podczas topnienia mieszaniny wody i lodu temperatura A/ B. Proces postępuje dzięki C/ D energii.",
-      "type": "tickboxes",
-      "options": [
-        "A. stale rośnie",
-        "B. jest stała",
-        "C. dostarczaniu",
-        "D. oddawaniu"
-      ],
-      "correct_answers": ["B", "C"],
-      "explanation": "Temperatura topnienia jest stała; proces wymaga dostarczania energii."
-    },
+      {
+        "question": "10a. Podczas topnienia mieszaniny wody i lodu temperatura:",
+        "type": "tickboxes",
+        "options": ["A. stale rośnie", "B. jest stała"],
+        "correct_answers": ["B"]
+      },
+      {
+        "question": "10b. Proces topnienia postępuje dzięki:",
+        "type": "tickboxes",
+        "options": ["A. dostarczaniu energii", "B. oddawaniu energii"],
+        "correct_answers": ["A"]
+      },
+     
     {
       "question": "11. Oceń prawdziwość zdań. Zaznacz P, jeżeli zdanie jest prawdziwe, lub F, jeżeli jest fałszywe.",
       "type": "input",
@@ -183,7 +193,7 @@
         "A. Naczynie 1",
         "B. Naczynie 2"
       ],
-      "correct_answers": ["A"],
+      "correct_answers": ["B"],
       "image": "assets/r7z12a.png",
       "explanation": "Kostka lodu szybciej stopi się w cieplejszym otoczeniu."
     },
